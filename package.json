@@ -1,0 +1,15 @@
+{
+    "name": "jjsstuff-website",
+    "version": "1.0.0",
+    "private": true,
+    "description": "JJ's Stuff – Professional website",
+    "scripts": {
+        "build": "tsc && npm run generate-en",
+        "watch": "tsc --watch",
+        "generate-en": "npx tsx scripts/generate-en.ts"
+    },
+    "devDependencies": {
+        "tsx": "^4.0.0",
+        "typescript": "^5.7.0"
+    }
+}

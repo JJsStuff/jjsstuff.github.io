@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "apps": "Apps",
+        "about": "Über mich",
+        "contact": "Kontakt",
+        "langSwitch": "EN",
+        "langTitle": "English",
+        "langHref": "en/",
+        "menuLabel": "Menü öffnen"
+    },
+    "hero": {
+        "pre": "Indie Software Development",
+        "title": "JJ's<br><span class=\"hero__title-accent\">Stuff.</span>",
+        "subtitle": "Was mein Hirn so ausspuckt \u2013 jetzt als App.",
+        "cta": "Projekte ansehen →",
+        "ctaSecondary": "Kontakt"
+    },
+    "apps": {
+        "title": "Apps",
+        "bleigiessenTitle": "Bleigießen",
+        "bleigiessenDesc": "Bleigiessen virtuell: Gieße deine 3D Figur & erhalte mystische Neujahrsdeutungen",
+        "bleigiessenTag1": "Android",
+        "bleigiessenTag2": "Unterhaltung",
+        "bleigiessenLink": "Im Play Store ansehen",
+        "comingTitle": "Mehr kommt bald",
+        "comingDesc": "Neue Projekte sind in Arbeit. Stay tuned.",
+        "comingTag": "coming soon"
+    },
+    "about": {
+        "title": "Über mich",
+        "text1": "Hi, ich bin der Kopf hinter <strong>JJ's Stuff</strong>. Als unabhängiger Entwickler baue ich Apps und Software, die ich selbst gerne nutze – schlicht, funktional und mit Liebe zum Detail.",
+        "text2": "",
+        "stackTitle": "// Tech Stack"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "text": "Fragen, Feedback oder Zusammenarbeit? Schreib mir gerne."
+    },
+    "footer": {
+        "impressum": "Impressum",
+        "datenschutz": "Datenschutz",
+        "copy": "© 2026 JJ's Stuff. Alle Rechte vorbehalten."
+    }
+}

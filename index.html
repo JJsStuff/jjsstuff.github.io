@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ's Stuff – Software-Entwicklung</title>
+    <meta name="description" content="JJ's Stuff – Indie-Software-Entwicklung. Apps, die Spaß machen und funktionieren.">
+    <meta property="og:title" content="JJ's Stuff – Software-Entwicklung">
+    <meta property="og:description" content="Indie-Software-Entwicklung. Apps, die Spaß machen und funktionieren.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jjsstuff.github.io">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="alternate" hreflang="en" href="https://jjsstuff.github.io/en/">
+    <link rel="alternate" hreflang="de" href="https://jjsstuff.github.io/">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Global Mesh Background -->
+    <div class="mesh" aria-hidden="true">
+        <div class="mesh__blob mesh__blob--1"></div>
+        <div class="mesh__blob mesh__blob--2"></div>
+        <div class="mesh__blob mesh__blob--3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <a href="#hero" class="nav__logo">
+                <span class="nav__logo-bracket">{</span>JJ<span class="nav__logo-bracket">}</span>
+            </a>
+            <button class="nav__toggle" id="nav-toggle" data-i18n-aria="nav.menuLabel">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="#apps" class="nav__link" data-i18n="nav.apps"></a></li>
+                <li><a href="#about" class="nav__link" data-i18n="nav.about"></a></li>
+                <li><a href="#contact" class="nav__link" data-i18n="nav.contact"></a></li>
+                <li><a class="nav__link nav__lang" data-i18n="nav.langSwitch" data-i18n-href="nav.langHref" data-i18n-title="nav.langTitle"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__container">
+            <p class="hero__pre" data-i18n="hero.pre"></p>
+            <h1 class="hero__title" data-i18n-html="hero.title"></h1>
+            <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+            <div class="hero__cta-row">
+                <a href="#apps" class="btn btn--primary" data-i18n="hero.cta"></a>
+                <a href="#contact" class="btn btn--ghost" data-i18n="hero.ctaSecondary"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Section -->
+    <section class="section apps" id="apps">
+        <div class="section__container">
+            <h2 class="section__title fade-in">
+                <span class="section__title-tag">&lt;</span><span data-i18n="apps.title"></span><span class="section__title-tag">/&gt;</span>
+            </h2>
+            <div class="apps__grid">
+                <article class="app-card fade-in">
+                    <div class="app-card__icon">
+                        <img src="assets/icons/bleigiessen.png" alt="Bleigießen App Icon" class="app-card__icon-img">
+                    </div>
+                    <div class="app-card__content">
+                        <h3 class="app-card__title" data-i18n="apps.bleigiessenTitle"></h3>
+                        <p class="app-card__desc" data-i18n="apps.bleigiessenDesc"></p>
+                        <div class="app-card__tags">
+                            <span class="app-card__tag" data-i18n="apps.bleigiessenTag1"></span>
+                            <span class="app-card__tag" data-i18n="apps.bleigiessenTag2"></span>
+                        </div>
+                        <a href="#" class="app-card__link">
+                            <span data-i18n="apps.bleigiessenLink"></span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="app-card app-card--coming fade-in">
+                    <div class="app-card__icon">
+                        <span class="app-card__emoji">⚡</span>
+                    </div>
+                    <div class="app-card__content">
+                        <h3 class="app-card__title" data-i18n="apps.comingTitle"></h3>
+                        <p class="app-card__desc" data-i18n="apps.comingDesc"></p>
+                        <div class="app-card__tags">
+                            <span class="app-card__tag" data-i18n="apps.comingTag"></span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="section__container">
+            <h2 class="section__title fade-in">
+                <span class="section__title-tag">&lt;</span><span data-i18n="about.title"></span><span class="section__title-tag">/&gt;</span>
+            </h2>
+            <div class="about__content fade-in">
+                <div class="about__text">
+                    <p data-i18n-html="about.text1"></p>
+                    <p data-i18n="about.text2"></p>
+                </div>
+                <div class="about__stack">
+                    <h3 class="about__stack-title" data-i18n="about.stackTitle"></h3>
+                    <div class="about__stack-items">
+                        <span class="about__stack-item">Kotlin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="section__container">
+            <h2 class="section__title fade-in">
+                <span class="section__title-tag">&lt;</span><span data-i18n="contact.title"></span><span class="section__title-tag">/&gt;</span>
+            </h2>
+            <div class="contact__content fade-in">
+                <p class="contact__text" data-i18n="contact.text"></p>
+                <a href="mailto:jjs-stuff-dev@protonmail.com" class="contact__email">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="4" width="20" height="16" rx="2"/>
+                        <path d="M22 4L12 13L2 4"/>
+                    </svg>
+                    jjs-stuff-dev@protonmail.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__links">
+                <a href="impressum.html" data-i18n="footer.impressum"></a>
+                <span class="footer__sep">·</span>
+                <a href="datenschutz.html" data-i18n="footer.datenschutz"></a>
+            </div>
+            <p class="footer__copy" data-i18n="footer.copy"></p>
+        </div>
+    </footer>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
