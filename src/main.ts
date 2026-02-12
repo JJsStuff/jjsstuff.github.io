@@ -8,10 +8,6 @@ type Translations = Record<string, Record<string, string>>;
 
 // --- i18n Module ---
 function getLocaleBase(): string {
-    // Detect base path for locale files
-    const lang = document.documentElement.lang || 'de';
-    // If we're in /en/, locale files are at ../locales/
-    // If we're at root, locale files are at locales/
     const isSubdir = window.location.pathname.includes('/en/');
     return isSubdir ? '../locales/' : 'locales/';
 }
@@ -169,30 +165,22 @@ function initActiveNavState(): void {
     sections.forEach((section) => observer.observe(section));
 }
 
-// --- Nav background on scroll ---
-function initNavScroll(): void {
-    const nav = document.getElementById('nav');
-    if (!nav) return;
-
-    let ticking = false;
-
-    window.addEventListener('scroll', () => {
-        if (!ticking) {
-            requestAnimationFrame(() => {
-                nav.classList.toggle('nav--scrolled', window.scrollY > 50);
-                ticking = false;
-            });
-            ticking = true;
-        }
-    });
+// --- Dynamic copyright year ---
+function updateCopyrightYear(): void {
+    const el = document.querySelector<HTMLElement>('[data-i18n="footer.copy"]');
+    if (!el || !el.textContent) return;
+    const year = new Date().getFullYear();
+    el.textContent = el.textContent.replace(/© \d{4}/, `© ${year}`);
 }
 
 // --- Mesh parallax on scroll ---
 function initMeshParallax(): void {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
     const mesh = document.querySelector<HTMLElement>('.mesh');
     if (!mesh) return;
 
-    const PARALLAX_FACTOR = 0.2; // 20% of scroll speed → blobs feel far away
+    const PARALLAX_FACTOR = 0.2;
     let ticking = false;
 
     window.addEventListener('scroll', () => {
@@ -213,6 +201,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     initFadeAnimations();
     initMobileNav();
     initActiveNavState();
-    initNavScroll();
     initMeshParallax();
+    updateCopyrightYear();
 });
+
+export {};

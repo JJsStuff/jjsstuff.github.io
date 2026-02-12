@@ -115,6 +115,33 @@ a:hover {
     color: var(--c-bg);
 }
 
+/* --- Skip Link --- */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--c-accent);
+    color: var(--c-bg);
+    padding: var(--s-sm) var(--s-lg);
+    border-radius: var(--radius-pill);
+    font-family: var(--f-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    z-index: 200;
+    transition: top var(--transition);
+}
+
+.skip-link:focus {
+    top: var(--s-md);
+}
+
+/* --- Focus Styles --- */
+:focus-visible {
+    outline: 2px solid var(--c-accent);
+    outline-offset: 2px;
+}
+
 /* --- Navigation --- */
 .nav {
     position: fixed;
@@ -234,7 +261,6 @@ a:hover {
     inset: 0;
     z-index: 0;
     pointer-events: none;
-    will-change: transform;
 }
 
 .mesh__blob {
@@ -282,6 +308,7 @@ a:hover {
 /* --- Hero --- */
 .hero {
     min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -632,8 +659,13 @@ a:hover {
 }
 
 /* --- Legal Pages --- */
+.legal {
+    padding-top: 8rem;
+}
+
 .legal__content {
     max-width: 700px;
+    margin: 0 auto;
 }
 
 .legal__content h2 {
@@ -741,5 +773,22 @@ a:hover {
 
     .hero__title {
         font-size: clamp(2rem, 14vw, 4rem);
+    }
+}
+
+/* --- Reduced Motion --- */
+@media (prefers-reduced-motion: reduce) {
+    .mesh__blob {
+        animation: none;
+    }
+
+    .fade-in {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    html {
+        scroll-behavior: auto;
     }
 }

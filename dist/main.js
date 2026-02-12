@@ -1,6 +1,4 @@
-"use strict";
 function getLocaleBase() {
-    const lang = document.documentElement.lang || 'de';
     const isSubdir = window.location.pathname.includes('/en/');
     return isSubdir ? '../locales/' : 'locales/';
 }
@@ -133,22 +131,16 @@ function initActiveNavState() {
     });
     sections.forEach((section) => observer.observe(section));
 }
-function initNavScroll() {
-    const nav = document.getElementById('nav');
-    if (!nav)
+function updateCopyrightYear() {
+    const el = document.querySelector('[data-i18n="footer.copy"]');
+    if (!el || !el.textContent)
         return;
-    let ticking = false;
-    window.addEventListener('scroll', () => {
-        if (!ticking) {
-            requestAnimationFrame(() => {
-                nav.classList.toggle('nav--scrolled', window.scrollY > 50);
-                ticking = false;
-            });
-            ticking = true;
-        }
-    });
+    const year = new Date().getFullYear();
+    el.textContent = el.textContent.replace(/© \d{4}/, `© ${year}`);
 }
 function initMeshParallax() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches)
+        return;
     const mesh = document.querySelector('.mesh');
     if (!mesh)
         return;
@@ -170,6 +162,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initFadeAnimations();
     initMobileNav();
     initActiveNavState();
-    initNavScroll();
     initMeshParallax();
+    updateCopyrightYear();
 });
+export {};

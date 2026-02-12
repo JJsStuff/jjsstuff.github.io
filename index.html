@@ -9,13 +9,20 @@
     <meta property="og:description" content="Indie-Software-Entwicklung. Apps, die Spaß machen und funktionieren.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jjsstuff.github.io">
+    <meta property="og:image" content="https://jjsstuff.github.io/assets/og-image.png">
+    <meta property="og:locale" content="de_DE">
     <meta name="google-site-verification" content="9uIE9Ce8FV3277WBm2VWSGer3FHGGGOwCIKwccfzIuc" />
+    <link rel="canonical" href="https://jjsstuff.github.io/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="alternate" hreflang="en" href="https://jjsstuff.github.io/en/">
     <link rel="alternate" hreflang="de" href="https://jjsstuff.github.io/">
+    <link rel="preload" href="assets/fonts/inter-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
     <!-- Global Mesh Background -->
     <div class="mesh" aria-hidden="true">
         <div class="mesh__blob mesh__blob--1"></div>
@@ -29,27 +36,28 @@
             <a href="#hero" class="nav__logo">
                 <span class="nav__logo-bracket">{</span>JJ<span class="nav__logo-bracket">}</span>
             </a>
-            <button class="nav__toggle" id="nav-toggle" data-i18n-aria="nav.menuLabel">
+            <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-label="Menü" data-i18n-aria="nav.menuLabel">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav__menu" id="nav-menu">
-                <li><a href="#apps" class="nav__link" data-i18n="nav.apps"></a></li>
-                <li><a href="#about" class="nav__link" data-i18n="nav.about"></a></li>
-                <li><a href="#contact" class="nav__link" data-i18n="nav.contact"></a></li>
-                <li><a class="nav__link nav__lang" data-i18n="nav.langSwitch" data-i18n-href="nav.langHref" data-i18n-title="nav.langTitle"></a></li>
+                <li><a href="#apps" class="nav__link" data-i18n="nav.apps">Apps</a></li>
+                <li><a href="#about" class="nav__link" data-i18n="nav.about">Über mich</a></li>
+                <li><a href="#contact" class="nav__link" data-i18n="nav.contact">Kontakt</a></li>
+                <li><a href="en/" title="English" class="nav__link nav__lang" data-i18n="nav.langSwitch" data-i18n-href="nav.langHref" data-i18n-title="nav.langTitle">EN</a></li>
             </ul>
         </div>
     </nav>
 
+    <main id="main">
     <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="hero__container">
-            <p class="hero__pre" data-i18n="hero.pre"></p>
-            <h1 class="hero__title" data-i18n-html="hero.title"></h1>
-            <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+            <p class="hero__pre" data-i18n="hero.pre">Indie Software Development</p>
+            <h1 class="hero__title" data-i18n-html="hero.title">JJ's<br><span class="hero__title-accent">Stuff.</span></h1>
+            <p class="hero__subtitle" data-i18n="hero.subtitle">Was mein Hirn so ausspuckt – jetzt als App.</p>
             <div class="hero__cta-row">
-                <a href="#apps" class="btn btn--primary" data-i18n="hero.cta"></a>
-                <a href="#contact" class="btn btn--ghost" data-i18n="hero.ctaSecondary"></a>
+                <a href="#apps" class="btn btn--primary" data-i18n="hero.cta">Projekte ansehen →</a>
+                <a href="#contact" class="btn btn--ghost" data-i18n="hero.ctaSecondary">Kontakt</a>
             </div>
         </div>
     </section>
@@ -58,7 +66,7 @@
     <section class="section apps" id="apps">
         <div class="section__container">
             <h2 class="section__title fade-in">
-                <span class="section__title-tag">&lt;</span><span data-i18n="apps.title"></span><span class="section__title-tag">/&gt;</span>
+                <span class="section__title-tag">&lt;</span><span data-i18n="apps.title">Apps</span><span class="section__title-tag">/&gt;</span>
             </h2>
             <div class="apps__grid">
                 <article class="app-card fade-in">
@@ -66,14 +74,14 @@
                         <img src="assets/icons/bleigiessen.png" alt="Bleigießen App Icon" class="app-card__icon-img">
                     </div>
                     <div class="app-card__content">
-                        <h3 class="app-card__title" data-i18n="apps.bleigiessenTitle"></h3>
-                        <p class="app-card__desc" data-i18n="apps.bleigiessenDesc"></p>
+                        <h3 class="app-card__title" data-i18n="apps.bleigiessenTitle">Bleigießen</h3>
+                        <p class="app-card__desc" data-i18n="apps.bleigiessenDesc">Bleigiessen virtuell: Gieße deine 3D Figur & erhalte mystische Neujahrsdeutungen</p>
                         <div class="app-card__tags">
-                            <span class="app-card__tag" data-i18n="apps.bleigiessenTag1"></span>
-                            <span class="app-card__tag" data-i18n="apps.bleigiessenTag2"></span>
+                            <span class="app-card__tag" data-i18n="apps.bleigiessenTag1">Android</span>
+                            <span class="app-card__tag" data-i18n="apps.bleigiessenTag2">Unterhaltung</span>
                         </div>
                         <a href="#" class="app-card__link">
-                            <span data-i18n="apps.bleigiessenLink"></span>
+                            <span data-i18n="apps.bleigiessenLink">Im Play Store ansehen</span>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M7 17L17 7M17 7H7M17 7V17"/>
                             </svg>
@@ -86,10 +94,10 @@
                         <span class="app-card__emoji">⚡</span>
                     </div>
                     <div class="app-card__content">
-                        <h3 class="app-card__title" data-i18n="apps.comingTitle"></h3>
-                        <p class="app-card__desc" data-i18n="apps.comingDesc"></p>
+                        <h3 class="app-card__title" data-i18n="apps.comingTitle">Mehr kommt bald</h3>
+                        <p class="app-card__desc" data-i18n="apps.comingDesc">Neue Projekte sind in Arbeit. Stay tuned.</p>
                         <div class="app-card__tags">
-                            <span class="app-card__tag" data-i18n="apps.comingTag"></span>
+                            <span class="app-card__tag" data-i18n="apps.comingTag">coming soon</span>
                         </div>
                     </div>
                 </article>
@@ -101,15 +109,14 @@
     <section class="section about" id="about">
         <div class="section__container">
             <h2 class="section__title fade-in">
-                <span class="section__title-tag">&lt;</span><span data-i18n="about.title"></span><span class="section__title-tag">/&gt;</span>
+                <span class="section__title-tag">&lt;</span><span data-i18n="about.title">Über mich</span><span class="section__title-tag">/&gt;</span>
             </h2>
             <div class="about__content fade-in">
                 <div class="about__text">
-                    <p data-i18n-html="about.text1"></p>
-                    <p data-i18n="about.text2"></p>
+                    <p data-i18n-html="about.text1">Hi, ich bin der Kopf hinter <strong>JJ's Stuff</strong>. Als unabhängiger Entwickler baue ich Apps und Software, die ich selbst gerne nutze – schlicht, funktional und mit Liebe zum Detail.</p>
                 </div>
                 <div class="about__stack">
-                    <h3 class="about__stack-title" data-i18n="about.stackTitle"></h3>
+                    <h3 class="about__stack-title" data-i18n="about.stackTitle">// Tech Stack</h3>
                     <div class="about__stack-items">
                         <span class="about__stack-item">Kotlin</span>
                     </div>
@@ -122,10 +129,10 @@
     <section class="section contact" id="contact">
         <div class="section__container">
             <h2 class="section__title fade-in">
-                <span class="section__title-tag">&lt;</span><span data-i18n="contact.title"></span><span class="section__title-tag">/&gt;</span>
+                <span class="section__title-tag">&lt;</span><span data-i18n="contact.title">Kontakt</span><span class="section__title-tag">/&gt;</span>
             </h2>
             <div class="contact__content fade-in">
-                <p class="contact__text" data-i18n="contact.text"></p>
+                <p class="contact__text" data-i18n="contact.text">Fragen, Feedback oder Zusammenarbeit? Schreib mir gerne.</p>
                 <a href="mailto:jjs-stuff-dev@protonmail.com" class="contact__email">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <rect x="2" y="4" width="20" height="16" rx="2"/>
@@ -136,19 +143,20 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__links">
-                <a href="impressum.html" data-i18n="footer.impressum"></a>
+                <a href="impressum.html" data-i18n="footer.impressum">Impressum</a>
                 <span class="footer__sep">·</span>
-                <a href="datenschutz.html" data-i18n="footer.datenschutz"></a>
+                <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a>
             </div>
-            <p class="footer__copy" data-i18n="footer.copy"></p>
+            <p class="footer__copy" data-i18n="footer.copy">© 2026 JJ's Stuff. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
-    <script src="dist/main.js"></script>
+    <script type="module" src="dist/main.js"></script>
 </body>
 </html>
