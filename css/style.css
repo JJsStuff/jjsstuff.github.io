@@ -681,15 +681,22 @@ a:hover {
     font-family: var(--f-sans);
     font-size: 0.95rem;
     font-weight: 500;
-    color: var(--c-text-muted);
+    color: rgba(255, 255, 255, 0.7);
     margin-top: var(--s-lg);
     margin-bottom: var(--s-sm);
 }
 
 .legal__content p {
-    color: var(--c-text-muted);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 0.95rem;
     margin-bottom: var(--s-md);
+    line-height: 1.8;
+}
+
+.legal__content ul,
+.legal__content li {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
     line-height: 1.8;
 }
 
