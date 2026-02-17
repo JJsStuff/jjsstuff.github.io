@@ -22,9 +22,14 @@
         "bleigiessenTag1": "Android",
         "bleigiessenTag2": "Entertainment",
         "bleigiessenLink": "View on Play Store",
-        "comingTitle": "More coming soon",
-        "comingDesc": "New projects are in the works. Stay tuned.",
-        "comingTag": "coming soon"
+        "bleigiessenPrivacy": "Privacy Policy",
+        "launcherTitle": "Launcher for Good",
+        "launcherDesc": "Your launcher that does good – 80% of ad revenue is donated to Doctors Without Borders.",
+        "launcherTag1": "Android",
+        "launcherTag2": "Launcher",
+        "launcherTag3": "Charity",
+        "launcherLink": "View on Play Store",
+        "launcherPrivacy": "Privacy Policy"
     },
     "about": {
         "title": "About",

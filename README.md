@@ -20,6 +20,21 @@ npm run build
 - **TypeScript** – Quelle in `src/main.ts`, kompiliert nach `dist/main.js`
 - **`dist/` wird committed** – kein CI nötig, GitHub Pages served direkt
 
+## Projektstruktur
+
+| Pfad | Beschreibung |
+|------|-------------|
+| `index.html` | Hauptseite (Deutsch) |
+| `en/index.html` | Englische Version (auto-generiert) |
+| `datenschutz.html` | Datenschutzerklärung der Website |
+| `impressum.html` | Impressum |
+| `apps/bleigiessen/` | Datenschutzerklärung der Bleigießen App |
+| `apps/launcher-for-good/` | Datenschutzerklärung der Launcher for Good App |
+| `locales/` | Übersetzungsdateien (DE/EN) |
+| `src/` | TypeScript-Quellcode |
+| `css/` | Stylesheets |
+| `assets/` | Fonts und App-Icons |
+
 ## Scripts
 
 | Befehl | Beschreibung |
@@ -27,6 +42,13 @@ npm run build
 | `npm run build` | TypeScript kompilieren + EN-Seite generieren |
 | `npm run watch` | TypeScript im Watch-Modus |
 | `npm run generate-en` | Nur EN-Seite neu generieren |
+
+## Konventionen
+
+- **App-Icons** (`assets/icons/`) sollten als PNG in **512×512 px** vorliegen. Größere Bilder vor dem Commit skalieren:
+  ```bash
+  magick assets/icons/ICON.png -resize 512x512 -strip assets/icons/ICON.png
+  ```
 
 ## Lizenz
 

@@ -22,9 +22,14 @@
         "bleigiessenTag1": "Android",
         "bleigiessenTag2": "Unterhaltung",
         "bleigiessenLink": "Im Play Store ansehen",
-        "comingTitle": "Mehr kommt bald",
-        "comingDesc": "Neue Projekte sind in Arbeit. Stay tuned.",
-        "comingTag": "coming soon"
+        "bleigiessenPrivacy": "Datenschutzerklärung",
+        "launcherTitle": "Launcher for Good",
+        "launcherDesc": "Dein Launcher, der Gutes tut – 80 % der Werbeeinnahmen gehen an Ärzte ohne Grenzen.",
+        "launcherTag1": "Android",
+        "launcherTag2": "Launcher",
+        "launcherTag3": "Wohltätigkeit",
+        "launcherLink": "Im Play Store ansehen",
+        "launcherPrivacy": "Datenschutzerklärung"
     },
     "about": {
         "title": "Über mich",

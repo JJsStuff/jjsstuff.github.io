@@ -23,9 +23,9 @@ html = html.replace(
     '<title>JJ\'s Stuff – Software Development</title>'
 );
 
-// 3. Update meta description
+// 3. Update meta description (using 's' flag to match across newlines)
 html = html.replace(
-    /(<meta name="description" content=").*?(")/,
+    /(<meta name="description"\s+content=").*?(")/s,
     '$1JJ\'s Stuff – Indie software development. Apps that are fun and just work.$2'
 );
 
