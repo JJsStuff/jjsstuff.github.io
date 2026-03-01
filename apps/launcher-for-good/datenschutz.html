@@ -24,7 +24,7 @@
             <h1 class="section__title">Datenschutzerklärung – Launcher for Good</h1>
 
             <div class="legal__content">
-                <p><em>Stand: Februar 2026</em></p>
+                <p><em>Stand: März 2026 – App Version 2.0</em></p>
 
                 <p>Jakob Günther („wir", „uns", „unser") betreibt die mobile Anwendung „Launcher for Good" (die „App").
                     Diese Datenschutzerklärung erläutert, welche Informationen erhoben werden, wie sie verwendet werden
@@ -46,34 +46,49 @@
                         personalisierter Werbung, sofern Sie Ihre Einwilligung über den Einwilligungsdialog erteilt
                         haben.</li>
                     <li><strong>Art. 6 Abs. 1 lit. f DSGVO (Berechtigtes Interesse)</strong> – für die Anzeige
-                        nicht-personalisierter Werbung sowie für die technische Bereitstellung der App-Funktionalität.
-                        Unser berechtigtes Interesse besteht in der Finanzierung der App zur Generierung von Spenden
-                        für wohltätige Zwecke.</li>
+                        nicht-personalisierter Werbung, wenn Sie im Einwilligungsdialog die Personalisierung
+                        ablehnen, jedoch eine grundlegende Einwilligung (insbesondere „Zweck 1" im Sinne des
+                        IAB TCF: Informationen auf einem Gerät speichern und/oder abrufen) erteilt haben; ferner
+                        für die technische Bereitstellung der App-Funktionalität. Unser berechtigtes Interesse
+                        besteht in der Finanzierung der App zur Generierung von Spenden für wohltätige
+                        Zwecke. Wenn Sie die Einwilligung im Einwilligungsdialog vollständig verweigern
+                        (einschließlich Zweck 1), werden keine Werbeanzeigen geladen und es findet keine
+                        auf dieser Rechtsgrundlage gestützte Verarbeitung statt.</li>
                 </ul>
 
                 <h2>3. Welche Daten werden erhoben?</h2>
 
                 <h3>3.1 Automatisch durch Werbe-SDKs erhobene Daten</h3>
                 <p>Die App zeigt Banneranzeigen über <strong>Google AdMob</strong> an, um Einnahmen für
-                    wohltätige Spenden zu generieren. Dieses Werbe-SDK kann automatisch folgende Informationen
-                    erheben:</p>
+                    wohltätige Spenden zu generieren. Dieses Werbe-SDK erhebt automatisch folgende Informationen
+                    (gemäß der offiziellen <a
+                        href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank"
+                        rel="noopener">Google-Datenoffenlegung</a>):</p>
                 <ul>
-                    <li><strong>Werbe-ID</strong> (Google Ad ID oder gleichwertig) – Werbepersonalisierung und
-                        Frequenzbegrenzung</li>
                     <li><strong>IP-Adresse</strong> – Ungefähre Standortbestimmung für regionsbezogene Werbung,
                         Betrugsprävention</li>
-                    <li><strong>Geräteinformationen</strong> (Modell, Betriebssystem, Bildschirmgröße) –
-                        Anzeigenrendering und Kompatibilität</li>
-                    <li><strong>App-Nutzungsdaten</strong> (Werbeeinblendungen, Klicks) – Messung der Werbeleistung</li>
-                    <li><strong>Netzwerkinformationen</strong> (Mobilfunkanbieter, Verbindungstyp) – Optimierung der
-                        Werbeauslieferung</li>
+                    <li><strong>Geräte- und Kontokennungen</strong> (Android-Werbe-ID, App-Set-ID
+                        sowie ggf. weitere mit angemeldeten Konten verknüpfte Kennungen) –
+                        Werbepersonalisierung und Frequenzbegrenzung</li>
+                    <li><strong>Nutzerinteraktionen</strong> (App-Start, Tippen, Videoaufrufe, Werbeeinblendungen,
+                        Klicks) – Messung der Werbeleistung</li>
+                    <li><strong>Diagnoseinformationen</strong> (App-Startzeit, Hängerate, Energieverbrauch) –
+                        Leistungsüberwachung des SDKs und der App</li>
                 </ul>
 
-                <h3>3.2 Lokal abgerufene Daten</h3>
-                <p>Die App greift auf die Liste der installierten Anwendungen auf Ihrem Gerät zu, um diese in der
-                    Launcher-Oberfläche anzuzeigen. <strong>Diese Informationen werden niemals übertragen, extern
-                        gespeichert oder an Dritte weitergegeben.</strong> Sie verbleiben ausschließlich auf Ihrem
-                    Gerät.</p>
+                <h3>3.2 Lokal gespeicherte Daten</h3>
+                <p>Die App verarbeitet und speichert folgende Daten ausschließlich lokal auf Ihrem Gerät:</p>
+                <ul>
+                    <li><strong>Installierte Anwendungen</strong> – Die App ruft die Liste der installierten
+                        Apps ab, um diese in der Launcher-Oberfläche anzuzeigen.</li>
+                    <li><strong>Startbildschirm-Konfiguration</strong> – Die Anordnung von Apps, Widgets und
+                        Ordnern auf Ihrem Startbildschirm wird lokal in den App-eigenen SharedPreferences
+                        gespeichert.</li>
+                    <li><strong>Benutzereinstellungen</strong> – Ihre Einstellungen (Design, dynamische Farben,
+                        Dock-Anzeige) werden lokal in den SharedPreferences gespeichert.</li>
+                </ul>
+                <p><strong>Keine dieser Informationen wird jemals übertragen, extern gespeichert oder an Dritte
+                        weitergegeben.</strong> Sie verbleiben ausschließlich auf Ihrem Gerät.</p>
 
                 <h3>3.3 Daten, die wir NICHT erheben</h3>
                 <p>Wir erheben, speichern oder übertragen keine:</p>
@@ -94,6 +109,11 @@
                         Grenzen gespendet.</li>
                     <li><strong>App-Funktionalität:</strong> Die Liste der installierten Apps wird lokal verwendet, um
                         Ihre Apps auf dem Startbildschirm anzuzeigen.</li>
+                    <li><strong>Automatisierte Entscheidungsfindung:</strong> Das Google AdMob SDK setzt
+                        automatisierte Verfahren ein, um auf Grundlage der in Abschnitt 3.1 genannten Daten
+                        relevante Werbeanzeigen auszuwählen. Eine darüber hinausgehende automatisierte
+                        Entscheidungsfindung mit rechtlicher Wirkung im Sinne des Art. 22 DSGVO findet nicht
+                        statt.</li>
                 </ul>
 
                 <h2>5. Dienste Dritter</h2>
@@ -101,8 +121,13 @@
                 <ul>
                     <li><strong>Google AdMob</strong> (Werbung) – <a href="https://policies.google.com/privacy"
                             target="_blank" rel="noopener">Google Datenschutzerklärung</a></li>
-                    <li><strong>Google User Messaging Platform (UMP)</strong> (DSGVO-Einwilligungsverwaltung) – <a
-                            href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google
+                    <li><strong>Google User Messaging Platform (UMP)</strong> (Einwilligungsverwaltung) – eine
+                        von Google bereitgestellte, nach dem <a href="https://iabeurope.eu/transparency-consent-framework/"
+                            target="_blank" rel="noopener">IAB Transparency &amp; Consent Framework (TCF v2)</a>
+                        zertifizierte Consent Management Platform (CMP). Die UMP schreibt IAB-TCF-konforme
+                        Einwilligungszeichenfolgen (TC-Strings) lokal in die SharedPreferences, die Google AdMob
+                        automatisch ausliest, um den Umfang der Datenverarbeitung zu steuern. –
+                        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google
                             Datenschutzerklärung</a></li>
                 </ul>
                 <p>Wir empfehlen Ihnen, diese Datenschutzrichtlinien zu lesen, um zu verstehen, wie diese Dienste mit
@@ -115,25 +140,46 @@
                     oder auf Grundlage des EU-US Data Privacy Framework. Weitere Informationen
                     entnehmen Sie bitte der Datenschutzrichtlinie von Google in Abschnitt 5.</p>
 
-                <h2>7. DSGVO-Einwilligung (Europäischer Wirtschaftsraum)</h2>
-                <p>Wenn Sie sich im Europäischen Wirtschaftsraum (EWR) befinden, verwendet die App die Google User
-                    Messaging Platform (UMP), um Ihre Einwilligung einzuholen, bevor personalisierte Werbung angezeigt
-                    wird. Sie können:</p>
+                <h2>7. DSGVO-Einwilligung (EWR, Vereinigtes Königreich und Schweiz)</h2>
+                <p>Wenn Sie sich im Europäischen Wirtschaftsraum (EWR), im Vereinigten Königreich oder in der
+                    Schweiz befinden, verwendet die App einen Einwilligungsdialog (Google UMP, zertifiziert nach dem
+                    IAB Transparency &amp; Consent Framework v2), um Ihre Zustimmung einzuholen, bevor
+                    personenbezogene Daten für Werbezwecke verarbeitet werden. Im Einwilligungsdialog haben Sie
+                    folgende Möglichkeiten:</p>
                 <ul>
-                    <li><strong>Einwilligung erteilen</strong> für personalisierte Werbung</li>
-                    <li><strong>Einwilligung verweigern</strong>, in diesem Fall werden nur nicht-personalisierte
-                        Anzeigen angezeigt</li>
-                    <li><strong>Ihre Einwilligung jederzeit widerrufen</strong>, indem Sie die App-Daten in Ihren
-                        Geräteeinstellungen löschen (Einstellungen → Apps → Launcher for Good → Speicher → Daten
-                        löschen). Beim nächsten Start der App wird der Einwilligungsdialog erneut angezeigt.</li>
+                    <li><strong>Vollständige Einwilligung erteilen</strong> – Es werden personalisierte
+                        Werbeanzeigen angezeigt (Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO).</li>
+                    <li><strong>Teilweise Einwilligung erteilen</strong> – Wenn Sie über „Optionen verwalten"
+                        die grundlegende Einwilligung (insbesondere Zweck 1: Informationen auf einem Gerät
+                        speichern und/oder abrufen) erteilen, die Personalisierung jedoch ablehnen, werden
+                        nicht-personalisierte Werbeanzeigen angezeigt (Rechtsgrundlage: Art. 6 Abs. 1 lit. f
+                        DSGVO).</li>
+                    <li><strong>Einwilligung vollständig verweigern</strong> – Es werden keine Werbeanzeigen
+                        geladen. Die Launcher-Funktionen bleiben nutzbar, es werden jedoch keine
+                        Werbeeinnahmen für wohltätige Spenden generiert.</li>
+                    <li><strong>Ihre Einwilligung jederzeit widerrufen oder anpassen</strong> über eine der
+                        folgenden Möglichkeiten:
+                        <ul>
+                            <li><strong>In der App:</strong> Öffnen Sie Einstellungen → Datenschutz →
+                                Datenschutz-Optionen und tippen Sie auf „Ändern". Im angezeigten Dialog
+                                können Sie Ihre Einwilligung widerrufen bzw. anpassen.</li>
+                            <li><strong>Über die Android-Einstellungen:</strong> Löschen Sie die App-Daten unter
+                                Einstellungen → Apps → Launcher for Good → Speicher → Daten löschen. Beim nächsten
+                                Start der App wird der Einwilligungsdialog erneut angezeigt.</li>
+                        </ul>
+                    </li>
                 </ul>
-                <p>Ihre Einwilligungsentscheidung wird lokal auf Ihrem Gerät gespeichert und von den integrierten
-                    Werbe-SDKs berücksichtigt.</p>
+                <p>Ihre Einwilligungsentscheidung wird als IAB-TCF-konformer TC-String ausschließlich lokal auf
+                    Ihrem Gerät in den SharedPreferences gespeichert und nicht an uns übermittelt.</p>
 
-                <h2>8. Datenspeicherung</h2>
-                <p>Wir speichern keine personenbezogenen Daten auf unseren Servern. Daten, die von den Werbe-SDKs
-                    erhoben werden, werden gemäß deren jeweiligen Datenschutzrichtlinien gespeichert (siehe Abschnitt
-                    5).</p>
+                <h2>8. Datenspeicherung und Speicherdauer</h2>
+                <p>Wir speichern keine personenbezogenen Daten auf unseren Servern. Die lokal auf Ihrem Gerät
+                    gespeicherten Daten (Startbildschirm-Konfiguration, Einstellungen, Einwilligungsentscheidung)
+                    verbleiben dort, bis Sie die App deinstallieren oder die App-Daten manuell löschen.</p>
+                <p>Daten, die vom Google AdMob SDK erhoben werden, werden gemäß der
+                    <a href="https://policies.google.com/technologies/retention" target="_blank"
+                        rel="noopener">Aufbewahrungsrichtlinie von Google</a> gespeichert
+                    (siehe auch Abschnitt 5).</p>
 
                 <h2>9. Datenschutz bei Kindern</h2>
                 <p>Die App richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen
@@ -143,7 +189,8 @@
 
                 <h2>10. Datensicherheit</h2>
                 <p>Wir ergreifen angemessene Maßnahmen zum Schutz der von der App verarbeiteten Informationen. Die
-                    gesamte Kommunikation mit den Werbenetzwerken erfolgt über verschlüsselte (HTTPS-)Verbindungen.
+                    gesamte Kommunikation mit den Werbenetzwerken erfolgt über TLS-verschlüsselte
+                    Verbindungen (HTTPS).
                     Allerdings ist keine Methode der elektronischen Übertragung zu 100 % sicher, und wir können keine
                     absolute Sicherheit garantieren.</p>
 
@@ -160,8 +207,14 @@
                         Einschränkung der Verarbeitung Ihrer Daten verlangen.</li>
                     <li><strong>Recht auf Datenübertragbarkeit</strong> (Art. 20 DSGVO) – Sie haben das Recht, Ihre
                         Daten in einem gängigen, maschinenlesbaren Format zu erhalten.</li>
-                    <li><strong>Widerrufsrecht</strong> (Art. 7 Abs. 3 DSGVO) – Sie können Ihre Einwilligung zur
-                        personalisierten Werbung jederzeit widerrufen (siehe Abschnitt 7).</li>
+                    <li><strong>Widerrufsrecht</strong> (Art. 7 Abs. 3 DSGVO) – Sie können Ihre Einwilligung
+                        jederzeit widerrufen, entweder direkt in der App unter Einstellungen → Datenschutz →
+                        Datenschutz-Optionen oder durch Löschen der App-Daten (siehe Abschnitt 7).</li>
+                    <li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO) – Soweit die Verarbeitung auf einem
+                        berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO) beruht, haben Sie das Recht, aus Gründen,
+                        die sich aus Ihrer besonderen Situation ergeben, jederzeit Widerspruch gegen die Verarbeitung
+                        einzulegen. Wir verarbeiten die personenbezogenen Daten dann nicht mehr, es sei denn, wir
+                        können zwingende schutzwürdige Gründe nachweisen.</li>
                     <li><strong>Beschwerderecht</strong> (Art. 77 DSGVO) – Sie haben das Recht, eine Beschwerde bei
                         einer Datenschutzaufsichtsbehörde einzureichen.</li>
                 </ul>
@@ -170,14 +223,28 @@
                     kontaktieren Sie uns bitte unter der in Abschnitt 1 genannten E-Mail-Adresse.</p>
 
                 <h2>12. Berechtigungen</h2>
-                <p>Die App benötigt die Berechtigung <strong>QUERY_ALL_PACKAGES</strong>, um die installierten Apps auf
-                    Ihrem Gerät abzurufen und in der Launcher-Oberfläche anzuzeigen. Diese Daten verlassen niemals Ihr
-                    Gerät.</p>
+                <p>Die App verwendet folgende Android-Berechtigungen:</p>
+                <ul>
+                    <li><strong>QUERY_ALL_PACKAGES</strong> – Abfrage der installierten Apps, um diese in der
+                        Launcher-Oberfläche anzuzeigen. Diese Daten verlassen niemals Ihr Gerät.</li>
+                    <li><strong>BIND_APPWIDGET</strong> – Einbinden von App-Widgets auf dem
+                        Startbildschirm.</li>
+                    <li><strong>INTERNET</strong> und <strong>ACCESS_NETWORK_STATE</strong> – Erforderlich für
+                        das Laden von Werbeanzeigen und die Einwilligungsprüfung über das Google AdMob SDK
+                        bzw. Google UMP SDK. Die App selbst führt keine eigenen Netzwerkverbindungen
+                        durch.</li>
+                </ul>
 
                 <h2>13. Android Auto-Backup</h2>
                 <p>Android kann App-Daten automatisch in Ihrem Google-Konto sichern, wenn Sie dies in Ihren
                     Geräteeinstellungen aktiviert haben. Dies ist eine Funktion des Android-Betriebssystems und wird von
-                    Google verwaltet. Sie können dies in den Android-Einstellungen unter „Sicherung“ deaktivieren.</p>
+                    Google verwaltet. Die Sicherung kann auch SharedPreferences umfassen, in denen unter anderem Ihre
+                    Einwilligungsentscheidung (IAB-TCF-TC-String) gespeichert ist. Wird eine solche Sicherung auf einem
+                    neuen Gerät wiederhergestellt, kann es vorkommen, dass der Einwilligungsdialog nicht erneut
+                    angezeigt wird, da das System den zuvor gespeicherten Einwilligungsstatus übernimmt. In diesem Fall
+                    können Sie Ihre Einwilligung jederzeit über Einstellungen → Datenschutz → Datenschutz-Optionen
+                    anpassen oder die App-Daten manuell löschen (siehe Abschnitt 7). Sie können die automatische
+                    Sicherung in den Android-Einstellungen unter „Sicherung" deaktivieren.</p>
 
                 <h2>14. Änderungen dieser Datenschutzerklärung</h2>
                 <p>Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden innerhalb der

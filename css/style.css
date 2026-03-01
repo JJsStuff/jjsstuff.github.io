@@ -527,6 +527,7 @@ a:hover {
     font-size: 0.85rem;
     color: var(--c-accent);
     transition: color var(--transition);
+    margin-top: var(--s-xs);
 }
 
 .app-card__link:hover {
