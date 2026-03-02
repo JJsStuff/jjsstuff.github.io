@@ -534,9 +534,10 @@ a:hover {
     color: var(--c-text);
 }
 
-/* Increase vertical space when multiple links are stacked */
+/* Spacing between multiple app links: horizontal on wide screens, vertical on stacked/mobile */
 .app-card__link + .app-card__link {
-    margin-top: var(--s-md);
+    margin-left: var(--s-md);
+    margin-top: var(--s-xs);
 }
 
 /* --- About --- */
@@ -750,6 +751,12 @@ a:hover {
 
     .app-card {
         flex-direction: column;
+    }
+
+    /* When stacked on small screens, use vertical spacing between links */
+    .app-card__link + .app-card__link {
+        margin-left: 0;
+        margin-top: var(--s-md);
     }
 
     .hero__title {
