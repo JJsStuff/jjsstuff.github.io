@@ -24,7 +24,7 @@
             <h1 class="section__title">Datenschutzerklärung – Launcher for Good</h1>
 
             <div class="legal__content">
-                <p><em>Stand: März 2026 – App Version 2.3.4</em></p>
+                <p><em>Stand: März 2026 – App Version 2.4.0</em></p>
 
                 <p>Jakob Günther („wir", „uns", „unser") betreibt die mobile Anwendung „Launcher for Good" (die „App").
                     Diese Datenschutzerklärung erläutert, welche Informationen erhoben werden, wie sie verwendet werden
@@ -85,7 +85,16 @@
                         Ordnern auf Ihrem Startbildschirm wird lokal in den App-eigenen SharedPreferences
                         gespeichert.</li>
                     <li><strong>Benutzereinstellungen</strong> – Ihre Einstellungen (Design, dynamische Farben,
-                        AMOLED-Schwarz, Dock-Anzeige, maximale Werbebanner-Höhe) werden lokal in den SharedPreferences gespeichert.</li>
+                        AMOLED-Schwarz, Dock-Anzeige, maximale Werbebanner-Höhe, Nur-WLAN-Werbung,
+                        Wischgeste für Benachrichtigungsleiste, Benachrichtigungspunkte, Rastergröße,
+                        Symbolgröße, Symbol-Pack) werden lokal in den SharedPreferences gespeichert.</li>
+                    <li><strong>Benachrichtigungsstatus</strong> – Wenn Sie die Funktion
+                        „Benachrichtigungspunkte" aktivieren und der App den Zugriff auf Benachrichtigungen
+                        in den Android-Einstellungen gewähren, liest die App die Paketnamen der Apps mit
+                        aktiven Benachrichtigungen aus, um Punkte auf den entsprechenden App-Symbolen
+                        anzuzeigen. Es werden ausschließlich die Paketnamen verarbeitet (nicht der Inhalt
+                        der Benachrichtigungen), und diese Daten werden nur im Arbeitsspeicher gehalten –
+                        sie werden weder dauerhaft gespeichert noch übertragen.</li>
                 </ul>
                 <p><strong>Keine dieser Informationen wird jemals übertragen, extern gespeichert oder an Dritte
                         weitergegeben.</strong> Sie verbleiben ausschließlich auf Ihrem Gerät.</p>
@@ -123,7 +132,7 @@
                             target="_blank" rel="noopener">Google Datenschutzerklärung</a></li>
                     <li><strong>Google User Messaging Platform (UMP)</strong> (Einwilligungsverwaltung) – eine
                         von Google bereitgestellte, nach dem <a href="https://iabeurope.eu/transparency-consent-framework/"
-                            target="_blank" rel="noopener">IAB Transparency &amp; Consent Framework (TCF v2)</a>
+                            target="_blank" rel="noopener">IAB Transparency &amp; Consent Framework (TCF v2.3)</a>
                         zertifizierte Consent Management Platform (CMP). Die UMP schreibt IAB-TCF-konforme
                         Einwilligungszeichenfolgen (TC-Strings) lokal in die SharedPreferences, die Google AdMob
                         automatisch ausliest, um den Umfang der Datenverarbeitung zu steuern. –
@@ -143,7 +152,7 @@
                 <h2>7. DSGVO-Einwilligung (EWR, Vereinigtes Königreich und Schweiz)</h2>
                 <p>Wenn Sie sich im Europäischen Wirtschaftsraum (EWR), im Vereinigten Königreich oder in der
                     Schweiz befinden, verwendet die App einen Einwilligungsdialog (Google UMP, zertifiziert nach dem
-                    IAB Transparency &amp; Consent Framework v2), um Ihre Zustimmung einzuholen, bevor
+                    IAB Transparency &amp; Consent Framework v2.3), um Ihre Zustimmung einzuholen, bevor
                     personenbezogene Daten für Werbezwecke verarbeitet werden. Im Einwilligungsdialog haben Sie
                     folgende Möglichkeiten:</p>
                 <ul>
@@ -229,6 +238,18 @@
                         Launcher-Oberfläche anzuzeigen. Diese Daten verlassen niemals Ihr Gerät.</li>
                     <li><strong>BIND_APPWIDGET</strong> – Einbinden von App-Widgets auf dem
                         Startbildschirm.</li>
+                    <li><strong>REQUEST_DELETE_PACKAGES</strong> – Auslösen des System-Deinstallationsdialogs,
+                        wenn Sie eine App über das Kontextmenü des Launchers deinstallieren möchten.</li>
+                    <li><strong>EXPAND_STATUS_BAR</strong> – Öffnen der Benachrichtigungsleiste durch eine
+                        Wischgeste nach unten auf dem Startbildschirm (sofern in den Einstellungen
+                        aktiviert).</li>
+                    <li><strong>BIND_NOTIFICATION_LISTENER_SERVICE</strong> – Lesen der Paketnamen von Apps
+                        mit aktiven Benachrichtigungen, um Benachrichtigungspunkte auf App-Symbolen
+                        anzuzeigen. Diese Berechtigung muss vom Nutzer manuell in den
+                        Android-Systemeinstellungen unter „Benachrichtigungszugriff" erteilt werden. Es
+                        werden ausschließlich Paketnamen verarbeitet, nicht der Inhalt der
+                        Benachrichtigungen. Die Daten verbleiben im Arbeitsspeicher und werden nicht
+                        gespeichert oder übertragen.</li>
                     <li><strong>INTERNET</strong> und <strong>ACCESS_NETWORK_STATE</strong> – Erforderlich für
                         das Laden von Werbeanzeigen und die Einwilligungsprüfung über das Google AdMob SDK
                         bzw. Google UMP SDK. Die App selbst führt keine eigenen Netzwerkverbindungen
@@ -262,7 +283,7 @@
                 <span class="footer__sep">·</span>
                 <a href="../../datenschutz.html">Allg. Datenschutz</a>
                 <span class="footer__sep">·</span>
-                <a href="https://play.google.com/store/apps/details?id=com.jjsstuff.launcherwithads" target="_blank" rel="noopener">Launcher for Good (Play Store)</a>
+                <a href="https://play.google.com/store/apps/details?id=com.jjsstuff.launcherwithadds" target="_blank" rel="noopener">Launcher for Good (Play Store)</a>
             </div>
             <p class="footer__copy">&copy; 2026 JJ's Stuff</p>
         </div>
