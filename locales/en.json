@@ -29,7 +29,13 @@
         "launcherTag2": "Launcher",
         "launcherTag3": "Charity",
         "launcherLink": "View on Play Store",
-        "launcherPrivacy": "Privacy Policy"
+        "launcherPrivacy": "Privacy Policy",
+        "partyWallTitle": "Party Wall",
+        "partyWallDesc": "\"Press, pull, shake!\" Increasingly fast commands the player must follow (single and multiplayer).",
+        "partyWallTag1": "Android",
+        "partyWallTag2": "Party Game",
+        "partyWallLink": "View on Play Store",
+        "partyWallPrivacy": "Privacy Policy"
     },
     "about": {
         "title": "About",

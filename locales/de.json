@@ -29,7 +29,13 @@
         "launcherTag2": "Launcher",
         "launcherTag3": "Wohltätigkeit",
         "launcherLink": "Im Play Store ansehen",
-        "launcherPrivacy": "Datenschutzerklärung"
+        "launcherPrivacy": "Datenschutzerklärung",
+        "partyWallTitle": "Party Wall",
+        "partyWallDesc": "\"Drücken, ziehen, schütteln!\" Immer schneller werdende Ansagen, die der Spieler umsetzen muss (Single und Multiplayer).",
+        "partyWallTag1": "Android",
+        "partyWallTag2": "Partyspiel",
+        "partyWallLink": "Im Play Store ansehen",
+        "partyWallPrivacy": "Datenschutzerklärung"
     },
     "about": {
         "title": "Über mich",
