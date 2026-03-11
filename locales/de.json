@@ -34,6 +34,7 @@
         "partyWallDesc": "\"Drücken, ziehen, schütteln!\" Immer schneller werdende Ansagen, die der Spieler umsetzen muss (Single und Multiplayer).",
         "partyWallTag1": "Android",
         "partyWallTag2": "Partyspiel",
+        "partyWallTag3": "Godot",
         "partyWallLink": "Im Play Store ansehen",
         "partyWallPrivacy": "Datenschutzerklärung"
     },

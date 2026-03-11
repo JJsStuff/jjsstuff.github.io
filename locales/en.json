@@ -34,6 +34,7 @@
         "partyWallDesc": "\"Press, pull, shake!\" Increasingly fast commands the player must follow (single and multiplayer).",
         "partyWallTag1": "Android",
         "partyWallTag2": "Party Game",
+        "partyWallTag3": "Godot",
         "partyWallLink": "View on Play Store",
         "partyWallPrivacy": "Privacy Policy"
     },
