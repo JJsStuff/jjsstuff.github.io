@@ -36,7 +36,14 @@
         "partyWallTag2": "Party Game",
         "partyWallTag3": "Godot",
         "partyWallLink": "View on Play Store",
-        "partyWallPrivacy": "Privacy Policy"
+        "partyWallPrivacy": "Privacy Policy",
+        "junkJournalTitle": "JunkJournal",
+        "junkJournalDesc": "Your digital junk journal for creative ideas, memories, and quick notes.",
+        "junkJournalTag1": "Android",
+        "junkJournalTag2": "Creativity",
+        "junkJournalTag3": "Journaling",
+        "junkJournalLink": "View on Play Store",
+        "junkJournalPrivacy": "Privacy Policy"
     },
     "about": {
         "title": "About",

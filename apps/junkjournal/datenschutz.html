@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutz – JunkJournal App – JJ's Stuff</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <a href="/" class="nav__logo">
+                <span class="nav__logo-bracket">{</span>JJ<span class="nav__logo-bracket">}</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="section legal">
+        <div class="section__container">
+            <h1 class="section__title">Datenschutzerklärung – JunkJournal App</h1>
+
+            <div class="legal__content">
+                <p><em>Stand: März 2026</em></p>
+
+                <p><strong>Kurzfassung:</strong> Diese App speichert alle Daten ausschließlich lokal auf Ihrem
+                    Gerät. Es werden keine persönlichen Daten an Server übertragen, kein Tracking eingesetzt
+                    und keine Internetverbindung benötigt.</p>
+
+                <h2>1. Verantwortlicher</h2>
+                <p>
+                    <strong>Jakob Günther</strong><br>
+                    JJ's Stuff<br>
+                    Anton-Hackl-Straße 4<br>
+                    85221 Dachau<br>
+                    E-Mail: <a href="mailto:jjs-stuff-dev@protonmail.com">jjs-stuff-dev@protonmail.com</a>
+                </p>
+
+                <h2>2. Beschreibung der App</h2>
+                <p>
+                    „JunkJournal" ist eine kreative Android-App zum Erstellen digitaler Junk Journals –
+                    Scrapbook-artige Seiten mit Fotos, Texten und Stickern – sowie von Foto-Kalender-Tagebüchern.
+                    Nutzer können Journalseiten frei gestalten, Bilder per Kamera aufnehmen und Seiten als
+                    PNG-Bilder teilen. Die App richtet sich an kreative Personen, die Erinnerungen, Ideen und
+                    Alltagsmomente visuell festhalten möchten.
+                </p>
+
+                <h2>3. Verarbeitete Daten</h2>
+                <p>
+                    Die App verarbeitet ausschließlich lokal auf dem Gerät des Nutzers folgende Datenkategorien:
+                </p>
+                <ul>
+                    <li><strong>Nutzererstellte Inhalte:</strong> Journal-Titel, Seitenelemente (Texte, Bilder, Sticker
+                        inkl. Position, Größe und Rotation), Seitenhintergrundfarben sowie Kalendereinträge
+                        (ein Foto pro Tag mit zugehörigem Datum).</li>
+                    <li><strong>Aufgenommene Fotos:</strong> Über die Kamerafunktion aufgenommene Bilder, die
+                        im internen App-Speicher abgelegt werden.</li>
+                    <li><strong>Metadaten:</strong> Erstellungs- und Änderungszeitstempel der Journale und Seiten.</li>
+                </ul>
+                <p>
+                    Zweck der Verarbeitung: Bereitstellung der Kernfunktionalität der App – Erstellen, Bearbeiten,
+                    Anzeigen und Teilen von digitalen Junk-Journal-Seiten und Kalender-Tagebüchern.
+                    <strong>Es werden keinerlei personenbezogene Daten an Server übertragen oder an Dritte weitergegeben.</strong>
+                </p>
+
+                <h2>4. Berechtigungen</h2>
+                <p>
+                    Die App nutzt folgende Geräteberechtigungen:
+                </p>
+                <ul>
+                    <li><strong>Kamera</strong> (<code>android.permission.CAMERA</code>) – Wird genutzt, um Fotos
+                        direkt aus der App heraus aufzunehmen (z.&nbsp;B. für Journalseiten oder Kalendereinträge).
+                        Diese Berechtigung ist optional; die App funktioniert auch ohne Kamerazugriff, sofern
+                        keine Fotos aufgenommen werden sollen. Aufgenommene Bilder werden ausschließlich lokal
+                        im internen App-Speicher gespeichert und nicht an Dritte übertragen.</li>
+                </ul>
+                <p>
+                    Die App benötigt <strong>keinen Internetzugang</strong> und fordert keine Netzwerk-Berechtigungen an.
+                    Ebenso werden kein Mikrofon, kein Standort und keine Kontakte angefordert.
+                </p>
+
+                <h2>5. Lokale Speicherung</h2>
+                <p>
+                    Sämtliche Nutzerdaten werden ausschließlich lokal auf dem Gerät gespeichert:
+                </p>
+                <ul>
+                    <li><strong>SQLite-Datenbank</strong> (<code>junk_journal_database</code>): Enthält Journale,
+                        Seiten, Seitenelemente (Texte, Sticker, Bildreferenzen) und Kalendereinträge. Gespeichert
+                        im privaten App-Verzeichnis des Betriebssystems.</li>
+                    <li><strong>Bilddateien:</strong> Aufgenommene und zugeschnittene Fotos werden im internen
+                        App-Speicher (<code>filesDir</code>) abgelegt und sind nur für die App selbst zugänglich.</li>
+                    <li><strong>Temporäre Dateien:</strong> Beim Aufnehmen von Fotos und beim Teilen von Seiten
+                        als PNG-Bilder werden vorübergehend Dateien im Cache-Verzeichnis (<code>cacheDir</code>)
+                        erstellt. Diese können vom Betriebssystem jederzeit automatisch gelöscht werden.</li>
+                </ul>
+                <p>
+                    <strong>Löschmöglichkeit:</strong> Nutzer können einzelne Journale, Seiten und Elemente
+                    direkt innerhalb der App löschen. Eine vollständige Löschung aller Daten erfolgt durch
+                    Deinstallation der App oder durch Löschen der App-Daten in den Android-Systemeinstellungen
+                    unter „Apps &gt; JunkJournal &gt; Speicher &gt; Daten löschen".
+                </p>
+
+                <h2>6. Datenübertragung an Server</h2>
+                <p>
+                    Es findet <strong>keine Datenübertragung an externe Server</strong> statt. Die App verfügt
+                    über keinen Internetzugang und kommuniziert nicht mit Servern, Cloud-Diensten oder sonstigen
+                    Drittanbietersystemen. Sämtliche Daten verbleiben vollständig auf dem Gerät des Nutzers.
+                </p>
+                <p>
+                    Beim Teilen einer Journalseite (Export als PNG-Bild) wird die Datei über die
+                    Android-Teilen-Funktion an eine vom Nutzer selbst gewählte Drittanwendung übergeben.
+                    Die weitere Verarbeitung unterliegt den Datenschutzbestimmungen dieser Drittanwendung.
+                </p>
+
+                <h2>7. Drittanbieter-Dienste / SDKs</h2>
+                <p>
+                    Die App verwendet <strong>keine Drittanbieter-Dienste</strong> zur Datenverarbeitung.
+                    Insbesondere werden keine Analyse-, Werbe-, Tracking- oder Absturzberichterstattungs-Dienste
+                    eingesetzt. Es kommen keine SDKs von Google Analytics, Firebase, Facebook, Crashlytics
+                    oder vergleichbaren Anbietern zum Einsatz.
+                </p>
+                <p>
+                    Die eingesetzten Open-Source-Bibliotheken (Jetpack Compose, Room, Coil, Navigation Compose)
+                    dienen ausschließlich der lokalen Funktionalität der App und übertragen keine Daten an
+                    externe Server.
+                </p>
+
+                <h2>8. Android Auto-Backup</h2>
+                <p>
+                    Android kann App-Daten (einschließlich der SQLite-Datenbank und lokal gespeicherter Bilder)
+                    automatisch in Ihrem Google-Konto sichern, wenn Sie dies in Ihren Geräteeinstellungen
+                    aktiviert haben. Dies ist eine Funktion des Android-Betriebssystems und wird von Google
+                    verwaltet. Sie können dies in den Android-Einstellungen unter „Sicherung" deaktivieren.
+                </p>
+
+                <h2>9. Rechtsgrundlagen</h2>
+                <p>
+                    Die Verarbeitung der lokal gespeicherten Daten erfolgt auf Grundlage von
+                    <strong>Art. 6 Abs. 1 lit. b DSGVO</strong> (Vertragserfüllung) – die Datenverarbeitung
+                    ist zur Bereitstellung der vom Nutzer gewünschten App-Funktionalität erforderlich.
+                </p>
+                <p>
+                    Der Zugriff auf die Kamera erfolgt ausschließlich nach ausdrücklicher Einwilligung des
+                    Nutzers gemäß <strong>Art. 6 Abs. 1 lit. a DSGVO</strong> durch Erteilung der
+                    Kameraberechtigung im Betriebssystem. Diese Einwilligung kann jederzeit in den
+                    Android-Systemeinstellungen unter „Apps &gt; JunkJournal &gt; Berechtigungen" widerrufen werden.
+                </p>
+
+                <h2>10. Speicherdauer</h2>
+                <p>
+                    Alle nutzererstellten Daten (Journale, Seiten, Bilder, Kalendereinträge) werden so lange
+                    auf dem Gerät gespeichert, bis der Nutzer sie eigenständig löscht – entweder innerhalb der
+                    App oder durch Deinstallation der App bzw. Löschen der App-Daten über die
+                    Android-Systemeinstellungen. Es gibt keine automatische Löschfrist, da die Daten
+                    ausschließlich lokal vorgehalten werden und dem Nutzer zur dauerhaften Nutzung dienen.
+                </p>
+                <p>
+                    Temporäre Dateien im Cache-Verzeichnis (z.&nbsp;B. beim Teilen von Seiten) werden vom
+                    Betriebssystem bei Bedarf automatisch bereinigt.
+                </p>
+
+                <h2>11. Ihre Rechte</h2>
+                <p>
+                    Betroffene Personen haben im Rahmen der geltenden Datenschutzgesetze, insbesondere der
+                    DSGVO, folgende Rechte:
+                </p>
+                <ul>
+                    <li><strong>Auskunftsrecht</strong> (Art. 15 DSGVO): Sie haben das Recht, Auskunft über
+                        die von Ihnen verarbeiteten Daten zu verlangen.</li>
+                    <li><strong>Recht auf Berichtigung</strong> (Art. 16 DSGVO): Sie können die Berichtigung
+                        unrichtiger Daten verlangen.</li>
+                    <li><strong>Recht auf Löschung</strong> (Art. 17 DSGVO): Sie können die Löschung Ihrer Daten
+                        verlangen. Da alle Daten lokal auf Ihrem Gerät gespeichert sind, können Sie diese
+                        jederzeit selbst löschen.</li>
+                    <li><strong>Recht auf Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO).</li>
+                    <li><strong>Recht auf Datenübertragbarkeit</strong> (Art. 20 DSGVO): Sie können Ihre Daten
+                        durch Export von Journalseiten als PNG-Bilder übertragen.</li>
+                    <li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO): Sie haben das Recht, der Verarbeitung
+                        Ihrer Daten zu widersprechen.</li>
+                    <li><strong>Recht auf Widerruf der Einwilligung</strong> (Art. 7 Abs. 3 DSGVO): Die erteilte
+                        Kameraberechtigung kann jederzeit in den Android-Systemeinstellungen widerrufen werden.</li>
+                </ul>
+                <p>
+                    Zur Ausübung Ihrer Rechte wenden Sie sich an:
+                    <a href="mailto:jjs-stuff-dev@protonmail.com">jjs-stuff-dev@protonmail.com</a>
+                </p>
+
+                <h2>12. Beschwerderecht</h2>
+                <p>
+                    Sie haben gemäß Art. 77 DSGVO das Recht, sich bei einer zuständigen
+                    Datenschutzaufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die
+                    Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt. Sie können sich
+                    hierfür an die Aufsichtsbehörde Ihres Wohnsitzes, Ihres Arbeitsplatzes oder des Ortes
+                    des mutmaßlichen Verstoßes wenden.
+                </p>
+
+                <h2>13. Änderungen</h2>
+                <p>
+                    Diese Datenschutzerklärung kann bei Bedarf angepasst werden. Die jeweils aktuelle Version ist auf
+                    dieser Seite abrufbar.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__links">
+                <a href="/">← Zurück zur Startseite</a>
+                <span class="footer__sep">·</span>
+                <a href="../../impressum.html">Impressum</a>
+                <span class="footer__sep">·</span>
+                <a href="../../datenschutz.html">Allg. Datenschutz</a>
+                <span class="footer__sep">·</span>
+                <a href="https://play.google.com/store/apps/details?id=com.jjsstuff.junkjournal" target="_blank" rel="noopener">JunkJournal (Play Store)</a>
+            </div>
+            <p class="footer__copy">&copy; 2026 JJ's Stuff</p>
+        </div>
+    </footer>
+</body>
+
+</html>
