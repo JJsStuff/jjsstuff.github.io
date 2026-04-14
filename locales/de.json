@@ -43,7 +43,14 @@
         "junkJournalTag2": "Kreativität",
         "junkJournalTag3": "Tagebuch",
         "junkJournalLink": "Im Play Store ansehen",
-        "junkJournalPrivacy": "Datenschutzerklärung"
+        "junkJournalPrivacy": "Datenschutzerklärung",
+        "paintPathTitle": "Paint Path",
+        "paintPathDesc": "Finde den Weg durch das Raster und enthülle berühmte Gemälde – Zelle für Zelle.",
+        "paintPathTag1": "Android",
+        "paintPathTag2": "Puzzle",
+        "paintPathTag3": "Godot",
+        "paintPathLink": "Im Play Store ansehen",
+        "paintPathPrivacy": "Datenschutzerklärung"
     },
     "about": {
         "title": "Über mich",

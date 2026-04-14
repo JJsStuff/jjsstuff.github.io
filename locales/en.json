@@ -43,7 +43,14 @@
         "junkJournalTag2": "Creativity",
         "junkJournalTag3": "Journaling",
         "junkJournalLink": "View on Play Store",
-        "junkJournalPrivacy": "Privacy Policy"
+        "junkJournalPrivacy": "Privacy Policy",
+        "paintPathTitle": "Paint Path",
+        "paintPathDesc": "Find the path through the grid and reveal famous paintings – cell by cell.",
+        "paintPathTag1": "Android",
+        "paintPathTag2": "Puzzle",
+        "paintPathTag3": "Godot",
+        "paintPathLink": "View on Play Store",
+        "paintPathPrivacy": "Privacy Policy"
     },
     "about": {
         "title": "About",
