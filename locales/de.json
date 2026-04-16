@@ -23,6 +23,7 @@
         "bleigiessenTag2": "Unterhaltung",
         "bleigiessenLink": "Im Play Store ansehen",
         "bleigiessenPrivacy": "Datenschutzerklärung",
+        "bleigiessenPrivacyHref": "apps/bleigiessen/datenschutz.html",
         "launcherTitle": "Launcher for Good",
         "launcherDesc": "Dein Launcher, der Gutes tut – 80 % der Werbeeinnahmen gehen an <a href=\"https://www.aerzte-ohne-grenzen.de/\" target=\"_blank\" rel=\"noopener noreferrer\">Ärzte ohne Grenzen</a>.",
         "launcherTag1": "Android",
@@ -30,6 +31,7 @@
         "launcherTag3": "Wohltätigkeit",
         "launcherLink": "Im Play Store ansehen",
         "launcherPrivacy": "Datenschutzerklärung",
+        "launcherPrivacyHref": "apps/launcher-for-good/datenschutz.html",
         "partyWallTitle": "Party Wall",
         "partyWallDesc": "\"Drücken, ziehen, schütteln!\" Immer schneller werdende Ansagen, die der Spieler umsetzen muss (Single und Multiplayer).",
         "partyWallTag1": "Android",
@@ -37,6 +39,7 @@
         "partyWallTag3": "Godot",
         "partyWallLink": "Im Play Store ansehen",
         "partyWallPrivacy": "Datenschutzerklärung",
+        "partyWallPrivacyHref": "apps/party-wall/datenschutz.html",
         "junkJournalTitle": "JunkJournal",
         "junkJournalDesc": "Dein digitales Junk Journal für kreative Ideen, Erinnerungen und schnelle Notizen.",
         "junkJournalTag1": "Android",
@@ -44,13 +47,15 @@
         "junkJournalTag3": "Tagebuch",
         "junkJournalLink": "Im Play Store ansehen",
         "junkJournalPrivacy": "Datenschutzerklärung",
+        "junkJournalPrivacyHref": "apps/junkjournal/datenschutz.html",
         "paintPathTitle": "Paint Path",
         "paintPathDesc": "Finde den Weg durch das Raster und enthülle berühmte Gemälde.",
         "paintPathTag1": "Android",
         "paintPathTag2": "Puzzle",
         "paintPathTag3": "Godot",
         "paintPathLink": "Im Play Store ansehen",
-        "paintPathPrivacy": "Datenschutzerklärung"
+        "paintPathPrivacy": "Datenschutzerklärung",
+        "paintPathPrivacyHref": "apps/paint-path/datenschutz.html"
     },
     "about": {
         "title": "Über mich",
@@ -64,6 +69,7 @@
     "footer": {
         "impressum": "Impressum",
         "datenschutz": "Datenschutz",
+        "datenschutzHref": "datenschutz.html",
         "copy": "© 2026 JJ's Stuff. Alle Rechte vorbehalten."
     }
 }
