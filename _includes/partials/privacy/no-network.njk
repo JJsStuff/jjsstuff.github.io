@@ -1,0 +1,2 @@
+{%- set l = lang -%}
+<p>{{ "Die App benötigt" if l == "de" else "The app does" }} <strong>{{ "keine Internetverbindung" if l == "de" else "not require an internet connection" }}</strong> {{ "und überträgt keinerlei Daten an externe Server. Es findet keine Kommunikation mit Servern des Entwicklers oder Dritter statt." if l == "de" else "and does not transmit any data to external servers. There is no communication with servers of the developer or any third parties." }}</p>

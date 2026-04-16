@@ -1,0 +1,17 @@
+{
+  "name": "JJ's Stuff",
+  "url": "https://jjsstuff.github.io",
+  "owner": "Jakob Günther",
+  "company": "JJ's Stuff",
+  "address": {
+    "street": "Anton-Hackl-Straße 4",
+    "zip": "85221",
+    "city": "Dachau",
+    "country": "Germany"
+  },
+  "email": "jjs-stuff-dev@protonmail.com",
+  "supervisoryAuthority": {
+    "name": "Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)",
+    "address": "Promenade 18, 91522 Ansbach"
+  }
+}

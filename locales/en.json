@@ -23,7 +23,7 @@
         "bleigiessenTag2": "Entertainment",
         "bleigiessenLink": "View on Play Store",
         "bleigiessenPrivacy": "Privacy Policy",
-        "bleigiessenPrivacyHref": "apps/bleigiessen/privacy.html",
+        "bleigiessenPrivacyHref": "en/apps/bleigiessen/privacy.html",
         "launcherTitle": "Launcher for Good",
         "launcherDesc": "Your launcher that does good – 80% of ad revenue is donated to <a href=\"https://www.aerzte-ohne-grenzen.de/\" target=\"_blank\" rel=\"noopener noreferrer\">Doctors Without Borders</a>.",
         "launcherTag1": "Android",
@@ -31,7 +31,7 @@
         "launcherTag3": "Charity",
         "launcherLink": "View on Play Store",
         "launcherPrivacy": "Privacy Policy",
-        "launcherPrivacyHref": "apps/launcher-for-good/privacy.html",
+        "launcherPrivacyHref": "en/apps/launcher-for-good/privacy.html",
         "partyWallTitle": "Party Wall",
         "partyWallDesc": "\"Press, pull, shake!\" Increasingly fast commands the player must follow (single and multiplayer).",
         "partyWallTag1": "Android",
@@ -39,7 +39,7 @@
         "partyWallTag3": "Godot",
         "partyWallLink": "View on Play Store",
         "partyWallPrivacy": "Privacy Policy",
-        "partyWallPrivacyHref": "apps/party-wall/privacy.html",
+        "partyWallPrivacyHref": "en/apps/party-wall/privacy.html",
         "junkJournalTitle": "JunkJournal",
         "junkJournalDesc": "Your digital junk journal for creative ideas, memories, and quick notes.",
         "junkJournalTag1": "Android",
@@ -47,7 +47,7 @@
         "junkJournalTag3": "Journaling",
         "junkJournalLink": "View on Play Store",
         "junkJournalPrivacy": "Privacy Policy",
-        "junkJournalPrivacyHref": "apps/junkjournal/privacy.html",
+        "junkJournalPrivacyHref": "en/apps/junkjournal/privacy.html",
         "paintPathTitle": "Paint Path",
         "paintPathDesc": "Find the path through the grid and reveal famous paintings.",
         "paintPathTag1": "Android",
@@ -55,7 +55,7 @@
         "paintPathTag3": "Godot",
         "paintPathLink": "View on Play Store",
         "paintPathPrivacy": "Privacy Policy",
-        "paintPathPrivacyHref": "apps/paint-path/privacy.html"
+        "paintPathPrivacyHref": "en/apps/paint-path/privacy.html"
     },
     "about": {
         "title": "About",
@@ -69,7 +69,7 @@
     "footer": {
         "impressum": "Legal Notice",
         "datenschutz": "Privacy Policy",
-        "datenschutzHref": "privacy.html",
+        "datenschutzHref": "en/privacy.html",
         "copy": "© 2026 JJ's Stuff. All rights reserved."
     }
 }

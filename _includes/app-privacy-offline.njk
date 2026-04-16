@@ -1,0 +1,115 @@
+{#- Offline App Privacy Policy Template -#}
+{%- set l = lang -%}
+{%- set n = 1 -%}
+<p><em>{{ "Stand" if l == "de" else "Last updated" }}: {{ app.lastUpdated[l] }}</em></p>
+
+<p><strong>{{ "Kurzfassung" if l == "de" else "Summary" }}:</strong> {{ app.summary[l] }}</p>
+
+{#- §1. Controller + DSB -#}
+{% include "partials/privacy/controller.njk" %}
+
+{#- §2. Overview -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ app.overviewHeading[l] if app.overviewHeading else ("Übersicht" if l == "de" else "Overview") }}</h2>
+{{ app.overview[l] | safe }}
+
+{#- §3. Legal Basis -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Rechtsgrundlage" if l == "de" else "Legal Basis" }}</h2>
+{{ app.legalBasis[l] | safe }}
+
+{#- §4. Data Collection (optional, e.g. Bleigießen) -#}
+{%- if app.dataCollection -%}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Datenerhebung" if l == "de" else "Data Collection" }}</h2>
+{{ app.dataCollection[l] | safe }}
+{%- endif -%}
+
+{#- §4/5. Data Processed (optional, e.g. JunkJournal) -#}
+{%- if app.dataProcessed -%}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Verarbeitete Daten" if l == "de" else "Data Processed" }}</h2>
+{{ app.dataProcessed[l] | safe }}
+{%- endif -%}
+
+{#- §5/6. Permissions -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Berechtigungen" if l == "de" else "Permissions" }}</h2>
+{%- if app.permissions.length > 0 -%}
+{%- for perm in app.permissions %}
+
+<h3>{{ n }}.{{ loop.index }} {{ perm.name[l] | safe }}</h3>
+<p>{{ perm.description[l] | safe }}</p>
+{%- endfor -%}
+{%- endif -%}
+{%- if app.permissionsNote %}
+{{ app.permissionsNote[l] | safe }}
+{%- elif app.permissions.length == 0 %}
+<p>{{ "Die App fordert <strong>keine besonderen Berechtigungen</strong> an." if l == "de" else "The app does <strong>not request any special permissions</strong>." }}</p>
+{%- endif %}
+
+{#- §6/7. Local Data Storage -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Lokale Datenspeicherung" if l == "de" else "Local Data Storage" }}</h2>
+{{ app.localStorage[l] | safe }}
+
+{#- §7/8. No Data Transmission -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Keine Datenübertragung" if l == "de" else "No Data Transmission" }}</h2>
+{%- if app.dataTransmission %}
+{{ app.dataTransmission[l] | safe }}
+{%- else %}
+{% include "partials/privacy/no-network.njk" %}
+{%- endif %}
+
+{#- §8/9. No Third-Party Services -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Keine Drittanbieter-Dienste" if l == "de" else "No Third-Party Services" }}</h2>
+{%- if app.thirdPartyCustom %}
+{{ app.thirdPartyCustom[l] | safe }}
+{%- else %}
+{% include "partials/privacy/no-third-party.njk" %}
+{%- endif %}
+
+{#- §9/10. Android Auto-Backup -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. Android Auto-Backup</h2>
+{% include "partials/privacy/android-backup.njk" %}
+
+{#- §10/11. Data Security (NEW) -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Datensicherheit" if l == "de" else "Data Security" }}</h2>
+{% include "partials/privacy/data-security.njk" %}
+
+{#- §11/12. Data Retention -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Speicherdauer" if l == "de" else "Data Retention" }}</h2>
+{%- if app.retention %}
+{{ app.retention[l] | safe }}
+{%- else %}
+{% include "partials/privacy/retention.njk" %}
+{%- endif %}
+
+{#- §12/13. Children -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Kinder" if l == "de" else "Children" }}</h2>
+{% include "partials/privacy/children.njk" %}
+
+{#- §13/14. Your Rights -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Ihre Rechte" if l == "de" else "Your Rights" }}</h2>
+{{ app.rights[l] | safe }}
+
+{#- §14/15. Complaint -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Beschwerderecht" if l == "de" else "Right to Lodge a Complaint" }}</h2>
+{%- if app.complaintCustom %}
+{{ app.complaintCustom[l] | safe }}
+{%- else %}
+{% include "partials/privacy/complaint.njk" %}
+{%- endif %}
+
+{#- §15/16. Changes -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Änderungen" if l == "de" else "Changes" }}</h2>
+{% include "partials/privacy/changes.njk" %}

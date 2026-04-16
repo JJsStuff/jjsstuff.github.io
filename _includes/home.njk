@@ -1,0 +1,268 @@
+{%- set t = i18n[lang] -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ's Stuff – {{ title }}</title>
+    <meta name="description"
+        content="{{ metaDescription }}">
+    <meta property="og:title" content="JJ's Stuff – {{ title }}">
+    <meta property="og:description" content="{{ ogDescription }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ ogUrl }}">
+    <meta property="og:locale" content="{{ ogLocale }}">
+    <meta name="google-site-verification" content="9uIE9Ce8FV3277WBm2VWSGer3FHGGGOwCIKwccfzIuc" />
+    <link rel="canonical" href="{{ canonicalUrl }}">
+    <link rel="icon" href="{{ rootPath }}favicon.svg" type="image/svg+xml">
+    <link rel="alternate" hreflang="en" href="https://jjsstuff.github.io/en/">
+    <link rel="alternate" hreflang="de" href="https://jjsstuff.github.io/">
+    <link rel="alternate" hreflang="x-default" href="https://jjsstuff.github.io/">
+    <link rel="preload" href="{{ rootPath }}assets/fonts/inter-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ rootPath }}assets/fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ rootPath }}css/style.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">{{ skipLinkText }}</a>
+
+    <!-- Global Mesh Background -->
+    <div class="mesh" aria-hidden="true">
+        <div class="mesh__blob mesh__blob--1"></div>
+        <div class="mesh__blob mesh__blob--2"></div>
+        <div class="mesh__blob mesh__blob--3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <a href="#hero" class="nav__logo">
+                <span class="nav__logo-bracket">{</span>JJ<span class="nav__logo-bracket">}</span>
+            </a>
+            <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-label="{{ t.nav.menuLabel }}">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="#apps" class="nav__link">{{ t.nav.apps }}</a></li>
+                <li><a href="#about" class="nav__link">{{ t.nav.about }}</a></li>
+                <li><a href="#contact" class="nav__link">{{ t.nav.contact }}</a></li>
+                <li><a href="{{ langSwitchHref }}" title="{{ langSwitchTitle }}" class="nav__link nav__lang">{{ langSwitchLabel }}</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero__container">
+                <p class="hero__pre">{{ t.hero.pre }}</p>
+                <h1 class="hero__title">{{ t.hero.title | safe }}</h1>
+                <p class="hero__subtitle">{{ t.hero.subtitle }}</p>
+                <div class="hero__cta-row">
+                    <a href="#apps" class="btn btn--primary">{{ t.hero.cta }}</a>
+                    <a href="#contact" class="btn btn--ghost">{{ t.hero.ctaSecondary }}</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apps Section -->
+        <section class="section apps" id="apps">
+            <div class="section__container">
+                <h2 class="section__title fade-in">
+                    <span class="section__title-tag">&lt;</span>{{ t.apps.title }}<span
+                        class="section__title-tag">/&gt;</span>
+                </h2>
+                <div class="apps__grid">
+                    <article class="app-card fade-in">
+                        <div class="app-card__icon">
+                            <img src="{{ rootPath }}assets/icons/bleigiessen.png" alt="Bleigießen App Icon"
+                                class="app-card__icon-img">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title">{{ t.apps.bleigiessenTitle }}</h3>
+                            <p class="app-card__desc">{{ t.apps.bleigiessenDesc }}</p>
+                            <div class="app-card__tags">
+                                <span class="app-card__tag">{{ t.apps.bleigiessenTag1 }}</span>
+                                <span class="app-card__tag">{{ t.apps.bleigiessenTag2 }}</span>
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.jjsstuff.bleigiessen" class="app-card__link">
+                                <span>{{ t.apps.bleigiessenLink }}</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                            <a href="{{ rootPath }}{{ t.apps.bleigiessenPrivacyHref }}" class="app-card__link">
+                                <span>{{ t.apps.bleigiessenPrivacy }}</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="app-card fade-in">
+                        <div class="app-card__icon">
+                            <img src="{{ rootPath }}assets/icons/launcher-for-good.png" alt="Launcher for Good App Icon"
+                                class="app-card__icon-img">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title">{{ t.apps.launcherTitle }}</h3>
+                            <p class="app-card__desc">{{ t.apps.launcherDesc | safe }}</p>
+                            <div class="app-card__tags">
+                                <span class="app-card__tag">{{ t.apps.launcherTag1 }}</span>
+                                <span class="app-card__tag">{{ t.apps.launcherTag2 }}</span>
+                                <span class="app-card__tag">{{ t.apps.launcherTag3 }}</span>
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.jjsstuff.launcherforgood" class="app-card__link">
+                                <span>{{ t.apps.launcherLink }}</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                            <a href="{{ rootPath }}{{ t.apps.launcherPrivacyHref }}" class="app-card__link">
+                                <span>{{ t.apps.launcherPrivacy }}</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="app-card fade-in">
+                        <div class="app-card__icon">
+                            <img src="{{ rootPath }}assets/icons/party-wall.png" alt="Party Wall App Icon"
+                                class="app-card__icon-img">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title">{{ t.apps.partyWallTitle }}</h3>
+                            <p class="app-card__desc">{{ t.apps.partyWallDesc }}</p>
+                            <div class="app-card__tags">
+                                <span class="app-card__tag">{{ t.apps.partyWallTag1 }}</span>
+                                <span class="app-card__tag">{{ t.apps.partyWallTag2 }}</span>
+                                <span class="app-card__tag">{{ t.apps.partyWallTag3 }}</span>
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.jjsstuff.partywall" class="app-card__link">
+                                <span>{{ t.apps.partyWallLink }}</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                            <a href="{{ rootPath }}{{ t.apps.partyWallPrivacyHref }}" class="app-card__link">
+                                <span>{{ t.apps.partyWallPrivacy }}</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="app-card fade-in">
+                        <div class="app-card__icon">
+                            <img src="{{ rootPath }}assets/icons/paint-path.png" alt="Paint Path App Icon"
+                                class="app-card__icon-img">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title">{{ t.apps.paintPathTitle }}</h3>
+                            <p class="app-card__desc">{{ t.apps.paintPathDesc }}</p>
+                            <div class="app-card__tags">
+                                <span class="app-card__tag">{{ t.apps.paintPathTag1 }}</span>
+                                <span class="app-card__tag">{{ t.apps.paintPathTag2 }}</span>
+                                <span class="app-card__tag">{{ t.apps.paintPathTag3 }}</span>
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.jjsstuff.paintpath" class="app-card__link">
+                                <span>{{ t.apps.paintPathLink }}</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                            <a href="{{ rootPath }}{{ t.apps.paintPathPrivacyHref }}" class="app-card__link">
+                                <span>{{ t.apps.paintPathPrivacy }}</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="app-card fade-in">
+                        <div class="app-card__icon">
+                            <img src="{{ rootPath }}assets/icons/junkjournal.png" alt="JunkJournal App Icon"
+                                class="app-card__icon-img">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title">{{ t.apps.junkJournalTitle }}</h3>
+                            <p class="app-card__desc">{{ t.apps.junkJournalDesc }}</p>
+                            <div class="app-card__tags">
+                                <span class="app-card__tag">{{ t.apps.junkJournalTag1 }}</span>
+                                <span class="app-card__tag">{{ t.apps.junkJournalTag2 }}</span>
+                                <span class="app-card__tag">{{ t.apps.junkJournalTag3 }}</span>
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.jjsstuff.junkjournal" class="app-card__link">
+                                <span>{{ t.apps.junkJournalLink }}</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                            <a href="{{ rootPath }}{{ t.apps.junkJournalPrivacyHref }}" class="app-card__link">
+                                <span>{{ t.apps.junkJournalPrivacy }}</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="section__container">
+                <h2 class="section__title fade-in">
+                    <span class="section__title-tag">&lt;</span>{{ t.about.title }}<span
+                        class="section__title-tag">/&gt;</span>
+                </h2>
+                <div class="about__content fade-in">
+                    <div class="about__text">
+                        <p>{{ t.about.text1 | safe }}</p>
+                    </div>
+                    <div class="about__stack">
+                        <h3 class="about__stack-title">{{ t.about.stackTitle }}</h3>
+                        <div class="about__stack-items">
+                            <span class="about__stack-item">Kotlin</span>
+                            <span class="about__stack-item">Godot</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="section__container">
+                <h2 class="section__title fade-in">
+                    <span class="section__title-tag">&lt;</span>{{ t.contact.title }}<span
+                        class="section__title-tag">/&gt;</span>
+                </h2>
+                <div class="contact__content fade-in">
+                    <p class="contact__text">{{ t.contact.text }}</p>
+                    <a href="mailto:jjs-stuff-dev@protonmail.com" class="contact__email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                            <path d="M22 4L12 13L2 4" />
+                        </svg>
+                        jjs-stuff-dev@protonmail.com
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__links">
+                <a href="{{ rootPath }}impressum.html">{{ t.footer.impressum }}</a>
+                <span class="footer__sep">·</span>
+                <a href="{{ rootPath }}{{ t.footer.datenschutzHref }}">{{ t.footer.datenschutz }}</a>
+            </div>
+            <p class="footer__copy">{{ t.footer.copy }}</p>
+        </div>
+    </footer>
+
+    <script type="module" src="{{ rootPath }}dist/main.js"></script>
+</body>
+
+</html>

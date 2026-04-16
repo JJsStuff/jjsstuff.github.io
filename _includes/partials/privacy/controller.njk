@@ -1,0 +1,11 @@
+{%- set l = lang -%}
+{%- set s = site -%}
+<h2>{{ n }}. {{ "Verantwortlicher" if l == "de" else "Controller" }}</h2>
+<p>
+    <strong>{{ s.owner }}</strong><br>
+    {{ s.company }}<br>
+    {{ s.address.street }}<br>
+    {{ s.address.zip }} {{ s.address.city }}{% if l == "en" %}, {{ s.address.country }}{% endif %}<br>
+    {{ "E-Mail" if l == "de" else "Email" }}: <a href="mailto:{{ s.email }}">{{ s.email }}</a>
+</p>
+<p><em>{{ "Die Benennung eines Datenschutzbeauftragten ist für uns gesetzlich nicht vorgeschrieben." if l == "de" else "We are not legally required to appoint a data protection officer." }}</em></p>

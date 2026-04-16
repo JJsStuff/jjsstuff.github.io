@@ -1,0 +1,87 @@
+{#- Connected App Privacy Policy Template (Launcher for Good) -#}
+{%- set l = lang -%}
+{%- set n = 1 -%}
+<p><em>{{ "Stand" if l == "de" else "Last updated" }}: {{ app.lastUpdated[l] }}{{ " – App Version " + app.appVersion if app.appVersion else "" }}</em></p>
+
+{{ app.introText[l] | safe }}
+
+{#- §1. Controller + DSB -#}
+{% include "partials/privacy/controller.njk" %}
+
+{#- §2. Legal Bases -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Rechtsgrundlagen der Verarbeitung" if l == "de" else "Legal Bases for Processing" }}</h2>
+{{ app.legalBasis[l] | safe }}
+
+{#- §3. What Data Is Collected? -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Welche Daten werden erhoben?" if l == "de" else "What Data Is Collected?" }}</h2>
+
+<h3>{{ n }}.1 {{ "Automatisch durch Werbe-SDKs erhobene Daten" if l == "de" else "Data Automatically Collected by Advertising SDKs" }}</h3>
+{{ app.sdkDataCollection[l] | safe }}
+
+<h3>{{ n }}.2 {{ "Lokal gespeicherte Daten" if l == "de" else "Locally Stored Data" }}</h3>
+{{ app.locallyStoredData[l] | safe }}
+
+<h3>{{ n }}.3 {{ "Daten, die wir NICHT erheben" if l == "de" else "Data We Do NOT Collect" }}</h3>
+{{ app.dataNotCollected[l] | safe }}
+
+{#- §4. How Is the Data Used? -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Wie werden die Daten verwendet?" if l == "de" else "How Is the Data Used?" }}</h2>
+{{ app.dataUsage[l] | safe }}
+
+{#- §5. Third-Party Services -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Dienste Dritter" if l == "de" else "Third-Party Services" }}</h2>
+{{ app.thirdPartyServices[l] | safe }}
+
+{#- §6. International Data Transfers -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Internationale Datenübermittlung" if l == "de" else "International Data Transfers" }}</h2>
+{{ app.internationalTransfer[l] | safe }}
+
+{#- §7. GDPR Consent -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "DSGVO-Einwilligung (EWR, Vereinigtes Königreich und Schweiz)" if l == "de" else "GDPR Consent (EEA, United Kingdom, and Switzerland)" }}</h2>
+{{ app.consentSection[l] | safe }}
+
+{#- §8. Data Retention -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Datenspeicherung und Speicherdauer" if l == "de" else "Data Retention" }}</h2>
+{{ app.retention[l] | safe }}
+
+{#- §9. Children -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Datenschutz bei Kindern" if l == "de" else "Children's Privacy" }}</h2>
+<p>{{ "Die App richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern. Wenn Sie der Meinung sind, dass ein Kind über die Werbe-SDKs personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter der in Abschnitt 1 genannten E-Mail-Adresse." if l == "de" else "The app is not directed at children under 16 years of age. We do not knowingly collect personal data from children. If you believe that a child has provided personal data through the advertising SDKs, please contact us at the email address provided in Section 1." }}</p>
+
+{#- §10. Data Security -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Datensicherheit" if l == "de" else "Data Security" }}</h2>
+{{ app.dataSecurity[l] | safe }}
+
+{#- §11. Your Rights -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Ihre Rechte" if l == "de" else "Your Rights" }}</h2>
+{{ app.rights[l] | safe }}
+
+{#- §12. Permissions -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Berechtigungen" if l == "de" else "Permissions" }}</h2>
+<p>{{ "Die App verwendet folgende Android-Berechtigungen:" if l == "de" else "The app uses the following Android permissions:" }}</p>
+<ul>
+{%- for perm in app.permissions %}
+<li><strong>{{ perm.name[l] | safe }}</strong> – {{ perm.description[l] | safe }}</li>
+{%- endfor %}
+</ul>
+
+{#- §13. Android Auto-Backup -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. Android Auto-Backup</h2>
+{{ app.androidBackup[l] | safe }}
+
+{#- §14. Changes -#}
+{%- set n = n + 1 -%}
+<h2>{{ n }}. {{ "Änderungen dieser Datenschutzerklärung" if l == "de" else "Changes to This Privacy Policy" }}</h2>
+<p>{{ "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden innerhalb der App oder auf dieser Seite veröffentlicht." if l == "de" else "We may update this privacy policy from time to time. Changes will be published within the app or on this page." }}</p>

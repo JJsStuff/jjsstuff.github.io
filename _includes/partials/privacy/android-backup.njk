@@ -1,0 +1,6 @@
+{%- set l = lang -%}
+{%- if l == "de" %}
+<p>Android kann App-Daten{{ app.androidBackupExtra[l] if app.androidBackupExtra else "" }} automatisch in Ihrem Google-Konto sichern, wenn Sie dies in Ihren Geräteeinstellungen aktiviert haben. Dies ist eine Funktion des Android-Betriebssystems und wird von Google verwaltet. Sie können dies in den Android-Einstellungen unter &bdquo;Sicherung&ldquo; deaktivieren.</p>
+{%- else %}
+<p>Android may automatically back up app data{{ app.androidBackupExtra[l] if app.androidBackupExtra else "" }} to your Google account if you have enabled this in your device settings. This is a feature of the Android operating system and is managed by Google. You can disable this in your Android settings under &ldquo;Backup&rdquo;.</p>
+{%- endif %}

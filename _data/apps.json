@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "bleigiessen",
+    "name": {
+      "de": "Bleigießen App",
+      "en": "Bleigießen App"
+    },
+    "type": "offline",
+    "lastUpdated": {
+      "de": "April 2026",
+      "en": "April 2026"
+    },
+    "playStoreId": "com.jjsstuff.bleigiessen",
+    "summary": {
+      "de": "Diese App sammelt keine persönlichen Daten, verwendet kein Tracking und macht keine Netzwerkverbindungen.",
+      "en": "This app does not collect any personal data, does not use tracking, and does not make any network connections."
+    },
+    "overview": {
+      "de": "<p>„Bleigießen“ ist eine Offline-Silvester-App für Android. Die App erhebt, speichert oder überträgt <strong>keine personenbezogenen Daten</strong>. Es werden keine Daten an den Entwickler, an Dritte oder an externe Server gesendet. Die App enthält keine Analyse-, Tracking- oder Werbedienste.</p>",
+      "en": "<p>\"Bleigießen\" is an offline New Year's Eve app for Android. The app does not collect, store, or transmit <strong>any personal data</strong>. No data is sent to the developer, to third parties, or to external servers. The app does not contain any analytics, tracking, or advertising services.</p>"
+    },
+    "legalBasis": {
+      "de": "<p>Soweit eine Verarbeitung personenbezogener Daten stattfände, wäre die Rechtsgrundlage Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO (berechtigtes Interesse) für die lokale Speicherung von App-Daten. Da tatsächlich keine personenbezogenen Daten erhoben werden, ist diese Angabe rein vorsorglich.</p>",
+      "en": "<p>Insofar as personal data were to be processed, the legal basis would be Art. 6(1)(f) GDPR (Legitimate Interest) for the local storage of app data. Since no personal data is actually collected, this information is provided as a precaution only.</p>"
+    },
+    "dataCollection": {
+      "de": "<p>Diese App erhebt, speichert oder überträgt <strong>keine persönlichen Daten</strong>. Es werden keine der folgenden Informationen gesammelt:</p><ul><li>Namen, E-Mail-Adressen oder Kontaktdaten</li><li>Standortdaten</li><li>Geräte-IDs oder Werbe-IDs</li><li>Nutzungsstatistiken oder Analytics</li></ul>",
+      "en": "<p>This app does not collect, store, or transmit <strong>any personal data</strong>. None of the following information is collected:</p><ul><li>Names, email addresses, or contact information</li><li>Location data</li><li>Device IDs or advertising IDs</li><li>Usage statistics or analytics</li></ul>"
+    },
+    "permissions": [],
+    "permissionsNote": {
+      "de": "<p>Die App fordert <strong>keine besonderen Berechtigungen</strong> an (kein Zugriff auf Kamera, Mikrofon, Kontakte, Standort o.ä.).</p>",
+      "en": "<p>The app does <strong>not request any special permissions</strong> (no access to camera, microphone, contacts, location, etc.).</p>"
+    },
+    "localStorage": {
+      "de": "<p>Die App speichert ausschließlich funktionale Daten lokal auf Ihrem Gerät:</p><ul><li><strong>Gesehene Modelle:</strong> Welche 3D-Figuren Sie bereits gesehen haben, damit bei jedem Start neue Figuren angezeigt werden.</li></ul><p>Diese Daten verlassen niemals Ihr Gerät und werden nicht an Server übertragen.</p>",
+      "en": "<p>The app stores only functional data locally on your device:</p><ul><li><strong>Viewed models:</strong> Which 3D figures you have already seen, so that new figures are displayed each time you open the app.</li></ul><p>This data never leaves your device and is not transmitted to any server.</p>"
+    },
+    "rights": {
+      "de": "<p>Ihnen stehen grundsätzlich die folgenden Rechte nach der DSGVO zu:</p><ul><li><strong>Auskunftsrecht</strong> (Art.&nbsp;15 DSGVO)</li><li><strong>Recht auf Berichtigung</strong> (Art.&nbsp;16 DSGVO)</li><li><strong>Recht auf Löschung</strong> (Art.&nbsp;17 DSGVO)</li><li><strong>Recht auf Einschränkung der Verarbeitung</strong> (Art.&nbsp;18 DSGVO)</li><li><strong>Recht auf Datenübertragbarkeit</strong> (Art.&nbsp;20 DSGVO)</li><li><strong>Widerspruchsrecht</strong> (Art.&nbsp;21 DSGVO)</li></ul><p>Da die App keine personenbezogenen Daten erhebt oder überträgt, sind diese Rechte in der Praxis nicht einschlägig. Die lokal gespeicherten Einstellungen können Sie jederzeit löschen, indem Sie die App-Daten in den Android-Einstellungen löschen oder die App deinstallieren.</p><p>Sollten Sie dennoch Fragen oder Anliegen zum Datenschutz haben, können Sie sich jederzeit an den oben genannten Verantwortlichen wenden: <a href=\"mailto:jjs-stuff-dev@protonmail.com\">jjs-stuff-dev@protonmail.com</a></p>",
+      "en": "<p>You are generally entitled to the following rights under the GDPR:</p><ul><li><strong>Right of access</strong> (Art. 15 GDPR)</li><li><strong>Right to rectification</strong> (Art. 16 GDPR)</li><li><strong>Right to erasure</strong> (Art. 17 GDPR)</li><li><strong>Right to restriction of processing</strong> (Art. 18 GDPR)</li><li><strong>Right to data portability</strong> (Art. 20 GDPR)</li><li><strong>Right to object</strong> (Art. 21 GDPR)</li></ul><p>Since the app does not collect or transmit any personal data, these rights are generally not applicable in practice. You can delete the locally stored settings at any time by clearing the app data in your Android settings or by uninstalling the app.</p><p>If you nevertheless have any questions or concerns regarding data protection, you may contact the controller at any time: <a href=\"mailto:jjs-stuff-dev@protonmail.com\">jjs-stuff-dev@protonmail.com</a></p>"
+    },
+    "thirdPartyCustom": {
+      "de": "<p>Die App verwendet keine Drittanbieter-Dienste wie:</p><ul><li>Werbung oder Werbenetzwerke</li><li>Analytics (Google Analytics, Firebase, etc.)</li><li>Crash-Reporting-Dienste</li><li>Social-Media-SDKs</li></ul>",
+      "en": "<p>The app does not use any third-party services such as:</p><ul><li>Advertising or ad networks</li><li>Analytics (Google Analytics, Firebase, etc.)</li><li>Crash reporting services</li><li>Social media SDKs</li></ul>"
+    }
+  },
+  {
+    "slug": "party-wall",
+    "name": {
+      "de": "Party Wall App",
+      "en": "Party Wall App"
+    },
+    "type": "offline",
+    "lastUpdated": {
+      "de": "April 2026",
+      "en": "April 2026"
+    },
+    "playStoreId": "com.jjsstuff.partywall",
+    "summary": {
+      "de": "Diese App sammelt keine persönlichen Daten, verwendet kein Tracking und stellt keine Netzwerkverbindungen her.",
+      "en": "This app does not collect any personal data, does not use tracking, and does not make any network connections."
+    },
+    "overview": {
+      "de": "<p>„Party Wall“ ist ein Offline-Partyspiel für Android. Die App erhebt, speichert oder überträgt <strong>keine personenbezogenen Daten</strong>. Es werden keine Daten an den Entwickler, an Dritte oder an externe Server gesendet. Die App enthält keine Analyse-, Tracking- oder Werbedienste.</p>",
+      "en": "<p>\"Party Wall\" is an offline party game for Android. The app does not collect, store, or transmit <strong>any personal data</strong>. No data is sent to the developer, to third parties, or to external servers. The app does not contain any analytics, tracking, or advertising services.</p>"
+    },
+    "legalBasis": {
+      "de": "<p>Soweit eine Verarbeitung personenbezogener Daten stattfände, wäre die Rechtsgrundlage Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;a DSGVO (Einwilligung) für die Mikrofon-Nutzung sowie Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO (berechtigtes Interesse) für die lokale Speicherung von Spieleinstellungen. Da tatsächlich keine personenbezogenen Daten erhoben werden, ist diese Angabe rein vorsorglich.</p>",
+      "en": "<p>Insofar as personal data were to be processed, the legal basis would be Art. 6(1)(a) GDPR (Consent) for microphone usage and Art. 6(1)(f) GDPR (Legitimate Interest) for the local storage of game settings. Since no personal data is actually collected, this information is provided as a precaution only.</p>"
+    },
+    "permissions": [
+      {
+        "id": "RECORD_AUDIO",
+        "name": {
+          "de": "Mikrofon (RECORD_AUDIO)",
+          "en": "Microphone (RECORD_AUDIO)"
+        },
+        "description": {
+          "de": "Das Mikrofon wird ausschließlich für die Spielaufgabe „Schreien“ verwendet. Dabei wird lediglich die Lautstärke des Umgebungsgeräuschs in Echtzeit ausgewertet. Es findet <strong>keine Aufnahme, Speicherung oder Übertragung</strong> von Audiodaten statt. Die Auswertung erfolgt ausschließlich lokal auf dem Gerät und nur während des aktiven Spielens. Die Mikrofonberechtigung kann in den Systemeinstellungen des Gerätes jederzeit entzogen werden. In diesem Fall wird die betroffene Spielaufgabe übersprungen.",
+          "en": "The microphone is used exclusively for the \"Scream\" game challenge. It only measures the ambient noise level in real time. <strong>No audio is recorded, stored, or transmitted.</strong> The processing occurs entirely locally on the device and only during active gameplay. The microphone permission can be revoked at any time in the device's system settings. In that case, the affected game challenge is skipped."
+        }
+      },
+      {
+        "id": "VIBRATE",
+        "name": {
+          "de": "Vibration (VIBRATE)",
+          "en": "Vibration (VIBRATE)"
+        },
+        "description": {
+          "de": "Die Vibrationsfunktion wird für haptisches Feedback während des Spielens verwendet (z.&nbsp;B. bei Aufgabenstart, Erfolg oder Fehler). Es werden dabei keine Daten erhoben oder gespeichert.",
+          "en": "The vibration feature is used for haptic feedback during gameplay (e.g. when a challenge starts, on success, or on failure). No data is collected or stored in the process."
+        }
+      },
+      {
+        "id": "SENSORS",
+        "name": {
+          "de": "Beschleunigungssensor und Schwerkraftsensor",
+          "en": "Accelerometer and Gravity Sensor"
+        },
+        "description": {
+          "de": "Diese Sensoren werden für die Spielaufgaben „Schütteln“, „Umdrehen“ und die Glasbox-Physik verwendet. Die Sensordaten werden ausschließlich lokal in Echtzeit verarbeitet und <strong>nicht gespeichert oder übertragen</strong>.",
+          "en": "These sensors are used for the \"Shake\", \"Flip\", and glass box physics game challenges. The sensor data is processed exclusively locally in real time and is <strong>neither stored nor transmitted</strong>."
+        }
+      }
+    ],
+    "localStorage": {
+      "de": "<p>Die App speichert Spieleinstellungen (z.&nbsp;B. Lautstärke, Sprache, Schwierigkeitsgrad) und Highscores ausschließlich lokal auf dem Gerät im anwendungseigenen Speicherbereich. Diese Daten enthalten keine personenbezogenen Informationen und werden nicht an Dritte weitergegeben. Die Daten werden bei Deinstallation der App automatisch gelöscht. Sie können die Daten auch manuell löschen, indem Sie in den Android-Einstellungen unter Apps → Party Wall → Speicher → Daten löschen wählen.</p>",
+      "en": "<p>The app stores game settings (e.g. volume, language, difficulty level) and high scores exclusively locally on the device in the app's own storage area. This data does not contain any personal information and is not shared with third parties. The data is automatically deleted when the app is uninstalled. You can also manually delete it in your Android settings under Apps → Party Wall → Storage → Clear data.</p>"
+    },
+    "rights": {
+      "de": "<p>Da die App keine personenbezogenen Daten erhebt, verarbeitet oder speichert, fallen die typischen Betroffenenrechte nach Art.&nbsp;15–21 DSGVO (Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit, Widerspruch) im Regelfall nicht an.</p><p>Sollten Sie dennoch Fragen oder Anliegen zum Datenschutz haben, können Sie sich jederzeit an den oben genannten Verantwortlichen wenden: <a href=\"mailto:jjs-stuff-dev@protonmail.com\">jjs-stuff-dev@protonmail.com</a></p>",
+      "en": "<p>Since the app does not collect, process, or store any personal data, the typical data subject rights under Art. 15–21 GDPR (access, rectification, erasure, restriction of processing, data portability, objection) generally do not apply.</p><p>If you nevertheless have any questions or concerns regarding data protection, you may contact the controller at any time: <a href=\"mailto:jjs-stuff-dev@protonmail.com\">jjs-stuff-dev@protonmail.com</a></p>"
+    }
+  },
+  {
+    "slug": "junkjournal",
+    "name": {
+      "de": "JunkJournal App",
+      "en": "JunkJournal App"
+    },
+    "type": "offline",
+    "lastUpdated": {
+      "de": "April 2026",
+      "en": "April 2026"
+    },
+    "playStoreId": "com.jjsstuff.junkjournal",
+    "summary": {
+      "de": "Diese App speichert alle Daten ausschließlich lokal auf Ihrem Gerät. Es werden keine persönlichen Daten an Server übertragen, kein Tracking eingesetzt und keine Internetverbindung benötigt.",
+      "en": "This app stores all data exclusively locally on your device. No personal data is transmitted to servers, no tracking is used, and no internet connection is required."
+    },
+    "overview": {
+      "de": "<p>„JunkJournal“ ist eine kreative Android-App zum Erstellen digitaler Junk Journals – Scrapbook-artige Seiten mit Fotos, Texten und Stickern – sowie von Foto-Kalender-Tagebüchern. Nutzer können Journalseiten frei gestalten, Bilder per Kamera aufnehmen und Seiten als PNG-Bilder teilen. Die App richtet sich an kreative Personen, die Erinnerungen, Ideen und Alltagsmomente visuell festhalten möchten.</p>",
+      "en": "<p>\"JunkJournal\" is a creative Android app for creating digital junk journals – scrapbook-style pages with photos, text, and stickers – as well as photo calendar diaries. Users can freely design journal pages, take photos using the camera, and share pages as PNG images. The app is aimed at creative individuals who want to visually capture memories, ideas, and everyday moments.</p>"
+    },
+    "overviewHeading": {
+      "de": "Beschreibung der App",
+      "en": "App Description"
+    },
+    "legalBasis": {
+      "de": "<p>Die Verarbeitung der lokal gespeicherten Daten erfolgt auf Grundlage von <strong>Art. 6 Abs. 1 lit. b DSGVO</strong> (Vertragserfüllung) – die Datenverarbeitung ist zur Bereitstellung der vom Nutzer gewünschten App-Funktionalität erforderlich.</p><p>Der Zugriff auf die Kamera erfolgt ausschließlich nach ausdrücklicher Einwilligung des Nutzers gemäß <strong>Art. 6 Abs. 1 lit. a DSGVO</strong> durch Erteilung der Kameraberechtigung im Betriebssystem. Diese Einwilligung kann jederzeit in den Android-Systemeinstellungen unter „Apps &gt; JunkJournal &gt; Berechtigungen“ widerrufen werden.</p>",
+      "en": "<p>The processing of locally stored data is based on <strong>Art. 6(1)(b) GDPR</strong> (Performance of a contract) – the data processing is necessary to provide the app functionality requested by the user.</p><p>Camera access is only granted upon the user's explicit consent pursuant to <strong>Art. 6(1)(a) GDPR</strong> by granting the camera permission in the operating system. This consent can be withdrawn at any time in the Android system settings under \"Apps &gt; JunkJournal &gt; Permissions\".</p>"
+    },
+    "dataProcessed": {
+      "de": "<p>Die App verarbeitet ausschließlich lokal auf dem Gerät des Nutzers folgende Datenkategorien:</p><ul><li><strong>Nutzererstellte Inhalte:</strong> Journal-Titel, Seitenelemente (Texte, Bilder, Sticker inkl. Position, Größe und Rotation), Seitenhintergrundfarben sowie Kalendereinträge (ein Foto pro Tag mit zugehörigem Datum).</li><li><strong>Aufgenommene Fotos:</strong> Über die Kamerafunktion aufgenommene Bilder, die im internen App-Speicher abgelegt werden.</li><li><strong>Metadaten:</strong> Erstellungs- und Änderungszeitstempel der Journale und Seiten.</li></ul><p>Zweck der Verarbeitung: Bereitstellung der Kernfunktionalität der App – Erstellen, Bearbeiten, Anzeigen und Teilen von digitalen Junk-Journal-Seiten und Kalender-Tagebüchern. <strong>Es werden keinerlei personenbezogene Daten an Server übertragen oder an Dritte weitergegeben.</strong></p>",
+      "en": "<p>The app processes the following categories of data exclusively locally on the user's device:</p><ul><li><strong>User-created content:</strong> Journal titles, page elements (text, images, stickers including position, size, and rotation), page background colors, and calendar entries (one photo per day with the associated date).</li><li><strong>Captured photos:</strong> Images taken via the camera feature, which are stored in the app's internal storage.</li><li><strong>Metadata:</strong> Creation and modification timestamps of journals and pages.</li></ul><p>Purpose of processing: Providing the app's core functionality – creating, editing, viewing, and sharing digital junk journal pages and calendar diaries. <strong>No personal data is transmitted to servers or shared with third parties.</strong></p>"
+    },
+    "permissions": [
+      {
+        "id": "CAMERA",
+        "name": {
+          "de": "Kamera (<code>android.permission.CAMERA</code>)",
+          "en": "Camera (<code>android.permission.CAMERA</code>)"
+        },
+        "description": {
+          "de": "Wird genutzt, um Fotos direkt aus der App heraus aufzunehmen (z.&nbsp;B. für Journalseiten oder Kalendereinträge). Diese Berechtigung ist optional; die App funktioniert auch ohne Kamerazugriff, sofern keine Fotos aufgenommen werden sollen. Aufgenommene Bilder werden ausschließlich lokal im internen App-Speicher gespeichert und nicht an Dritte übertragen.",
+          "en": "Used to take photos directly within the app (e.g. for journal pages or calendar entries). This permission is optional; the app functions without camera access as long as no photos need to be taken. Captured images are stored exclusively locally in the app's internal storage and are not transmitted to third parties."
+        }
+      }
+    ],
+    "permissionsNote": {
+      "de": "<p>Die App benötigt <strong>keinen Internetzugang</strong> und fordert keine Netzwerk-Berechtigungen an. Ebenso werden kein Mikrofon, kein Standort und keine Kontakte angefordert.</p>",
+      "en": "<p>The app does <strong>not require internet access</strong> and does not request network permissions. It also does not request access to the microphone, location, or contacts.</p>"
+    },
+    "localStorage": {
+      "de": "<p>Sämtliche Nutzerdaten werden ausschließlich lokal auf dem Gerät gespeichert:</p><ul><li><strong>SQLite-Datenbank</strong> (<code>junk_journal_database</code>): Enthält Journale, Seiten, Seitenelemente (Texte, Sticker, Bildreferenzen) und Kalendereinträge. Gespeichert im privaten App-Verzeichnis des Betriebssystems.</li><li><strong>Bilddateien:</strong> Aufgenommene und zugeschnittene Fotos werden im internen App-Speicher (<code>filesDir</code>) abgelegt und sind nur für die App selbst zugänglich.</li><li><strong>Temporäre Dateien:</strong> Beim Aufnehmen von Fotos und beim Teilen von Seiten als PNG-Bilder werden vorübergehend Dateien im Cache-Verzeichnis (<code>cacheDir</code>) erstellt. Diese können vom Betriebssystem jederzeit automatisch gelöscht werden.</li></ul><p><strong>Löschmöglichkeit:</strong> Nutzer können einzelne Journale, Seiten und Elemente direkt innerhalb der App löschen. Eine vollständige Löschung aller Daten erfolgt durch Deinstallation der App oder durch Löschen der App-Daten in den Android-Systemeinstellungen unter „Apps &gt; JunkJournal &gt; Speicher &gt; Daten löschen“.</p>",
+      "en": "<p>All user data is stored exclusively locally on the device:</p><ul><li><strong>SQLite database</strong> (<code>junk_journal_database</code>): Contains journals, pages, page elements (text, stickers, image references), and calendar entries. Stored in the operating system's private app directory.</li><li><strong>Image files:</strong> Captured and cropped photos are stored in the app's internal storage (<code>filesDir</code>) and are only accessible to the app itself.</li><li><strong>Temporary files:</strong> When taking photos and sharing pages as PNG images, temporary files are created in the cache directory (<code>cacheDir</code>). These may be automatically deleted by the operating system at any time.</li></ul><p><strong>Deletion options:</strong> Users can delete individual journals, pages, and elements directly within the app. A complete deletion of all data can be achieved by uninstalling the app or by clearing the app data in the Android system settings under \"Apps &gt; JunkJournal &gt; Storage &gt; Clear data\".</p>"
+    },
+    "dataTransmission": {
+      "de": "<p>Es findet <strong>keine Datenübertragung an externe Server</strong> statt. Die App verfügt über keinen Internetzugang und kommuniziert nicht mit Servern, Cloud-Diensten oder sonstigen Drittanbietersystemen. Sämtliche Daten verbleiben vollständig auf dem Gerät des Nutzers.</p><p>Beim Teilen einer Journalseite (Export als PNG-Bild) wird die Datei über die Android-Teilen-Funktion an eine vom Nutzer selbst gewählte Drittanwendung übergeben. Die weitere Verarbeitung unterliegt den Datenschutzbestimmungen dieser Drittanwendung.</p>",
+      "en": "<p><strong>No data is transmitted to external servers.</strong> The app has no internet access and does not communicate with servers, cloud services, or any other third-party systems. All data remains entirely on the user's device.</p><p>When sharing a journal page (export as a PNG image), the file is passed to a third-party application chosen by the user via the Android sharing function. Further processing is subject to the privacy policy of that third-party application.</p>"
+    },
+    "thirdPartyCustom": {
+      "de": "<p>Die App verwendet <strong>keine Drittanbieter-Dienste</strong> zur Datenverarbeitung. Insbesondere werden keine Analyse-, Werbe-, Tracking- oder Absturzberichterstattungs-Dienste eingesetzt. Es kommen keine SDKs von Google Analytics, Firebase, Facebook, Crashlytics oder vergleichbaren Anbietern zum Einsatz.</p><p>Die eingesetzten Open-Source-Bibliotheken (Jetpack Compose, Room, Coil, Navigation Compose) dienen ausschließlich der lokalen Funktionalität der App und übertragen keine Daten an externe Server.</p>",
+      "en": "<p>The app does <strong>not use any third-party services</strong> for data processing. In particular, no analytics, advertising, tracking, or crash reporting services are used. No SDKs from Google Analytics, Firebase, Facebook, Crashlytics, or comparable providers are employed.</p><p>The open-source libraries used (Jetpack Compose, Room, Coil, Navigation Compose) serve exclusively the app's local functionality and do not transmit any data to external servers.</p>"
+    },
+    "androidBackupExtra": {
+      "de": " (einschließlich der SQLite-Datenbank und lokal gespeicherter Bilder)",
+      "en": " (including the SQLite database and locally stored images)"
+    },
+    "retention": {
+      "de": "<p>Alle nutzererstellten Daten (Journale, Seiten, Bilder, Kalendereinträge) werden so lange auf dem Gerät gespeichert, bis der Nutzer sie eigenständig löscht – entweder innerhalb der App oder durch Deinstallation der App bzw. Löschen der App-Daten über die Android-Systemeinstellungen. Es gibt keine automatische Löschfrist, da die Daten ausschließlich lokal vorgehalten werden und dem Nutzer zur dauerhaften Nutzung dienen.</p><p>Temporäre Dateien im Cache-Verzeichnis (z.&nbsp;B. beim Teilen von Seiten) werden vom Betriebssystem bei Bedarf automatisch bereinigt.</p>",
+      "en": "<p>All user-created data (journals, pages, images, calendar entries) is stored on the device until the user deletes it independently – either within the app or by uninstalling the app or clearing the app data via the Android system settings. There is no automatic deletion period, as the data is stored exclusively locally and is intended for the user's ongoing use.</p><p>Temporary files in the cache directory (e.g. when sharing pages) are automatically cleaned up by the operating system as needed.</p>"
+    },
+    "rights": {
+      "de": "<p>Betroffene Personen haben im Rahmen der geltenden Datenschutzgesetze, insbesondere der DSGVO, folgende Rechte:</p><ul><li><strong>Auskunftsrecht</strong> (Art. 15 DSGVO): Sie haben das Recht, Auskunft über die von Ihnen verarbeiteten Daten zu verlangen.</li><li><strong>Recht auf Berichtigung</strong> (Art. 16 DSGVO): Sie können die Berichtigung unrichtiger Daten verlangen.</li><li><strong>Recht auf Löschung</strong> (Art. 17 DSGVO): Sie können die Löschung Ihrer Daten verlangen. Da alle Daten lokal auf Ihrem Gerät gespeichert sind, können Sie diese jederzeit selbst löschen.</li><li><strong>Recht auf Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO).</li><li><strong>Recht auf Datenübertragbarkeit</strong> (Art. 20 DSGVO): Sie können Ihre Daten durch Export von Journalseiten als PNG-Bilder übertragen.</li><li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO): Sie haben das Recht, der Verarbeitung Ihrer Daten zu widersprechen.</li><li><strong>Recht auf Widerruf der Einwilligung</strong> (Art. 7 Abs. 3 DSGVO): Die erteilte Kameraberechtigung kann jederzeit in den Android-Systemeinstellungen widerrufen werden.</li></ul><p>Zur Ausübung Ihrer Rechte wenden Sie sich an: <a href=\"mailto:jjs-stuff-dev@protonmail.com\">jjs-stuff-dev@protonmail.com</a></p>",
+      "en": "<p>Data subjects have the following rights under applicable data protection laws, in particular the GDPR:</p><ul><li><strong>Right of access</strong> (Art. 15 GDPR): You have the right to request information about the data processed about you.</li><li><strong>Right to rectification</strong> (Art. 16 GDPR): You may request the correction of inaccurate data.</li><li><strong>Right to erasure</strong> (Art. 17 GDPR): You may request the deletion of your data. Since all data is stored locally on your device, you can delete it yourself at any time.</li><li><strong>Right to restriction of processing</strong> (Art. 18 GDPR).</li><li><strong>Right to data portability</strong> (Art. 20 GDPR): You can transfer your data by exporting journal pages as PNG images.</li><li><strong>Right to object</strong> (Art. 21 GDPR): You have the right to object to the processing of your data.</li><li><strong>Right to withdraw consent</strong> (Art. 7(3) GDPR): The camera permission granted can be withdrawn at any time in the Android system settings under \"Apps &gt; JunkJournal &gt; Permissions\".</li></ul><p>To exercise your rights, please contact: <a href=\"mailto:jjs-stuff-dev@protonmail.com\">jjs-stuff-dev@protonmail.com</a></p>"
+    },
+    "complaintCustom": {
+      "de": "<p>Sie haben gemäß Art. 77 DSGVO das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt. Sie können sich hierfür an die Aufsichtsbehörde Ihres Wohnsitzes, Ihres Arbeitsplatzes oder des Ortes des mutmaßlichen Verstoßes wenden.</p>",
+      "en": "<p>You have the right to lodge a complaint with a competent data protection supervisory authority pursuant to Art. 77 GDPR if you believe that the processing of your personal data violates the GDPR. You may contact the supervisory authority of your place of residence, your place of work, or the place of the alleged violation.</p>"
+    }
+  },
+  {
+    "slug": "paint-path",
+    "name": {
+      "de": "Paint Path App",
+      "en": "Paint Path App"
+    },
+    "type": "offline",
+    "lastUpdated": {
+      "de": "April 2026",
+      "en": "April 2026"
+    },
+    "playStoreId": "com.jjsstuff.paintpath",
+    "summary": {
+      "de": "Diese App sammelt keine persönlichen Daten, verwendet kein Tracking und stellt keine Netzwerkverbindungen her.",
+      "en": "This app does not collect any personal data, does not use tracking, and does not make any network connections."
+    },
+    "overview": {
+      "de": "<p>„Paint Path“ ist ein Offline-Puzzlespiel für Android. Die App erhebt, speichert oder überträgt <strong>keine personenbezogenen Daten</strong>. Es werden keine Daten an den Entwickler, an Dritte oder an externe Server gesendet. Die App enthält keine Analyse-, Tracking- oder Werbedienste.</p>",
+      "en": "<p>\"Paint Path\" is an offline puzzle game for Android. The app does not collect, store, or transmit <strong>any personal data</strong>. No data is sent to the developer, to third parties, or to external servers. The app does not contain any analytics, tracking, or advertising services.</p>"
+    },
+    "legalBasis": {
+      "de": "<p>Soweit eine Verarbeitung personenbezogener Daten stattfände, wäre die Rechtsgrundlage Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO (berechtigtes Interesse) für die lokale Speicherung von Spieleinstellungen. Da tatsächlich keine personenbezogenen Daten erhoben werden, ist diese Angabe rein vorsorglich.</p>",
+      "en": "<p>Insofar as personal data were to be processed, the legal basis would be Art. 6(1)(f) GDPR (Legitimate Interest) for the local storage of game settings. Since no personal data is actually collected, this information is provided as a precaution only.</p>"
+    },
+    "permissions": [
+      {
+        "id": "VIBRATE",
+        "name": {
+          "de": "Vibration (VIBRATE)",
+          "en": "Vibration (VIBRATE)"
+        },
+        "description": {
+          "de": "Die Vibrationsfunktion wird für haptisches Feedback während des Spielens verwendet (z.&nbsp;B. bei Fehlern oder Levelabschluss). Es werden dabei keine Daten erhoben oder gespeichert.",
+          "en": "The vibration feature is used for haptic feedback during gameplay (e.g. on errors or level completion). No data is collected or stored in the process."
+        }
+      }
+    ],
+    "localStorage": {
+      "de": "<p>Die App speichert Spielfortschritt und Einstellungen (z.&nbsp;B. Lautstärke, Sprache) ausschließlich lokal auf dem Gerät im anwendungseigenen Speicherbereich. Diese Daten enthalten keine personenbezogenen Informationen und werden nicht an Dritte weitergegeben. Die Daten werden bei Deinstallation der App automatisch gelöscht. Sie können die Daten auch manuell löschen, indem Sie in den Android-Einstellungen unter Apps → Paint Path → Speicher → Daten löschen wählen.</p>",
+      "en": "<p>The app stores game progress and settings (e.g. volume, language) exclusively locally on the device in the app's own storage area. This data does not contain any personal information and is not shared with third parties. The data is automatically deleted when the app is uninstalled. You can also manually delete it in your Android settings under Apps → Paint Path → Storage → Clear data.</p>"
+    },
+    "rights": {
+      "de": "<p>Da die App keine personenbezogenen Daten erhebt, verarbeitet oder speichert, fallen die typischen Betroffenenrechte nach Art.&nbsp;15–21 DSGVO (Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit, Widerspruch) im Regelfall nicht an.</p><p>Sollten Sie dennoch Fragen oder Anliegen zum Datenschutz haben, können Sie sich jederzeit an den oben genannten Verantwortlichen wenden: <a href=\"mailto:jjs-stuff-dev@protonmail.com\">jjs-stuff-dev@protonmail.com</a></p>",
+      "en": "<p>Since the app does not collect, process, or store any personal data, the typical data subject rights under Art. 15–21 GDPR (access, rectification, erasure, restriction of processing, data portability, objection) generally do not apply.</p><p>If you nevertheless have any questions or concerns regarding data protection, you may contact the controller at any time: <a href=\"mailto:jjs-stuff-dev@protonmail.com\">jjs-stuff-dev@protonmail.com</a></p>"
+    }
+  },
+  {
+    "slug": "launcher-for-good",
+    "name": {
+      "de": "Launcher for Good",
+      "en": "Launcher for Good"
+    },
+    "type": "connected",
+    "lastUpdated": {
+      "de": "April 2026",
+      "en": "April 2026"
+    },
+    "appVersion": "2.4.0",
+    "playStoreId": "com.jjsstuff.launcherforgood",
+    "introText": {
+      "de": "<p>Jakob Günther („wir“, „uns“, „unser“) betreibt die mobile Anwendung „Launcher for Good“ (die „App“). Diese Datenschutzerklärung erläutert, welche Informationen erhoben werden, wie sie verwendet werden und welche Wahlmöglichkeiten Sie haben.</p>",
+      "en": "<p>Jakob Günther (\"we\", \"us\", \"our\") operates the mobile application \"Launcher for Good\" (the \"App\"). This privacy policy explains what information is collected, how it is used, and what choices you have.</p>"
+    },
+    "legalBasis": {
+      "de": "<p>Die Verarbeitung personenbezogener Daten erfolgt auf folgenden Rechtsgrundlagen:</p><ul><li><strong>Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</strong> – für die Anzeige personalisierter Werbung, sofern Sie Ihre Einwilligung über den Einwilligungsdialog erteilt haben.</li><li><strong>Art. 6 Abs. 1 lit. f DSGVO (Berechtigtes Interesse)</strong> – für die Anzeige nicht-personalisierter Werbung, wenn Sie im Einwilligungsdialog die Personalisierung ablehnen, jedoch eine grundlegende Einwilligung (insbesondere „Zweck 1“ im Sinne des IAB TCF: Informationen auf einem Gerät speichern und/oder abrufen) erteilt haben; ferner für die technische Bereitstellung der App-Funktionalität. Unser berechtigtes Interesse besteht in der Finanzierung der App zur Generierung von Spenden für wohltätige Zwecke. Wenn Sie die Einwilligung im Einwilligungsdialog vollständig verweigern (einschließlich Zweck 1), werden keine Werbeanzeigen geladen und es findet keine auf dieser Rechtsgrundlage gestützte Verarbeitung statt.</li></ul>",
+      "en": "<p>The processing of personal data is based on the following legal grounds:</p><ul><li><strong>Art. 6(1)(a) GDPR (Consent)</strong> – for displaying personalized advertising, provided you have given your consent through the consent dialog.</li><li><strong>Art. 6(1)(f) GDPR (Legitimate Interest)</strong> – for displaying non-personalized advertising when you decline personalization in the consent dialog but grant basic consent (in particular \"Purpose 1\" as defined by the IAB TCF: Store and/or access information on a device); furthermore, for providing the app's technical functionality. Our legitimate interest lies in funding the app to generate donations for charitable purposes. If you fully refuse consent in the consent dialog (including Purpose 1), no advertisements are loaded and no processing based on this legal ground takes place.</li></ul>"
+    },
+    "sdkDataCollection": {
+      "de": "<p>Die App zeigt Banneranzeigen über <strong>Google AdMob</strong> an, um Einnahmen für wohltätige Spenden zu generieren. Dieses Werbe-SDK erhebt automatisch folgende Informationen (gemäß der offiziellen <a href=\"https://developers.google.com/admob/android/privacy/play-data-disclosure\" target=\"_blank\" rel=\"noopener\">Google-Datenoffenlegung</a>):</p><ul><li><strong>IP-Adresse</strong> – Ungefähre Standortbestimmung für regionsbezogene Werbung, Betrugsprävention</li><li><strong>Geräte- und Kontokennungen</strong> (Android-Werbe-ID, App-Set-ID sowie ggf. weitere mit angemeldeten Konten verknüpfte Kennungen) – Werbepersonalisierung und Frequenzbegrenzung</li><li><strong>Nutzerinteraktionen</strong> (App-Start, Tippen, Videoaufrufe, Werbeeinblendungen, Klicks) – Messung der Werbeleistung</li><li><strong>Diagnoseinformationen</strong> (App-Startzeit, Hängerate, Energieverbrauch) – Leistungsüberwachung des SDKs und der App</li></ul>",
+      "en": "<p>The app displays banner ads via <strong>Google AdMob</strong> to generate revenue for charitable donations. This advertising SDK automatically collects the following information (as described in the official <a href=\"https://developers.google.com/admob/android/privacy/play-data-disclosure\" target=\"_blank\" rel=\"noopener\">Google data disclosure</a>):</p><ul><li><strong>IP address</strong> – Approximate location determination for region-based advertising and fraud prevention</li><li><strong>Device and account identifiers</strong> (Android advertising ID, App Set ID, and potentially other identifiers linked to signed-in accounts) – Advertising personalization and frequency capping</li><li><strong>User interactions</strong> (app launches, taps, video views, ad impressions, clicks) – Measuring advertising performance</li><li><strong>Diagnostic information</strong> (app start time, hang rates, energy consumption) – Performance monitoring of the SDK and the app</li></ul>"
+    },
+    "locallyStoredData": {
+      "de": "<p>Die App verarbeitet und speichert folgende Daten ausschließlich lokal auf Ihrem Gerät:</p><ul><li><strong>Installierte Anwendungen</strong> – Die App ruft die Liste der installierten Apps ab, um diese in der Launcher-Oberfläche anzuzeigen.</li><li><strong>Startbildschirm-Konfiguration</strong> – Die Anordnung von Apps, Widgets und Ordnern auf Ihrem Startbildschirm wird lokal in den App-eigenen SharedPreferences gespeichert.</li><li><strong>Benutzereinstellungen</strong> – Ihre Einstellungen (Design, dynamische Farben, AMOLED-Schwarz, Dock-Anzeige, maximale Werbebanner-Höhe, Nur-WLAN-Werbung, Wischgeste für Benachrichtigungsleiste, Benachrichtigungspunkte, Rastergröße, Symbolgröße, Symbol-Pack) werden lokal in den SharedPreferences gespeichert.</li><li><strong>Benachrichtigungsstatus</strong> – Wenn Sie die Funktion „Benachrichtigungspunkte“ aktivieren und der App den Zugriff auf Benachrichtigungen in den Android-Einstellungen gewähren, liest die App die Paketnamen der Apps mit aktiven Benachrichtigungen aus, um Punkte auf den entsprechenden App-Symbolen anzuzeigen. Es werden ausschließlich die Paketnamen verarbeitet (nicht der Inhalt der Benachrichtigungen), und diese Daten werden nur im Arbeitsspeicher gehalten – sie werden weder dauerhaft gespeichert noch übertragen.</li></ul><p><strong>Keine dieser Informationen wird jemals übertragen, extern gespeichert oder an Dritte weitergegeben.</strong> Sie verbleiben ausschließlich auf Ihrem Gerät.</p>",
+      "en": "<p>The app processes and stores the following data exclusively locally on your device:</p><ul><li><strong>Installed applications</strong> – The app retrieves the list of installed apps in order to display them in the launcher interface.</li><li><strong>Home screen configuration</strong> – The arrangement of apps, widgets, and folders on your home screen is stored locally in the app's SharedPreferences.</li><li><strong>User preferences</strong> – Your settings (theme, dynamic colors, AMOLED black, dock display, maximum ad banner height, Wi-Fi-only ads, swipe gesture for notification shade, notification dots, grid size, icon size, icon pack) are stored locally in SharedPreferences.</li><li><strong>Notification status</strong> – If you enable the \"notification dots\" feature and grant the app notification access in your Android settings, the app reads the package names of apps with active notifications in order to display dots on the corresponding app icons. Only package names are processed (not the content of the notifications), and this data is only kept in memory – it is neither permanently stored nor transmitted.</li></ul><p><strong>None of this information is ever transmitted, stored externally, or shared with third parties.</strong> It remains exclusively on your device.</p>"
+    },
+    "dataNotCollected": {
+      "de": "<p>Wir erheben, speichern oder übertragen keine:</p><ul><li>Persönlichen Identifikationsdaten (Name, E-Mail, Telefonnummer)</li><li>Kontakte, Nachrichten oder Anrufprotokolle</li><li>Fotos, Dateien oder Medien</li><li>Genauen Standortdaten (GPS)</li><li>Passwörter oder Finanzinformationen</li><li>Browserverlauf</li></ul>",
+      "en": "<p>We do not collect, store, or transmit any:</p><ul><li>Personal identification data (name, email, phone number)</li><li>Contacts, messages, or call logs</li><li>Photos, files, or media</li><li>Precise location data (GPS)</li><li>Passwords or financial information</li><li>Browsing history</li></ul>"
+    },
+    "dataUsage": {
+      "de": "<ul><li><strong>Werbeanzeigen:</strong> Die Werbe-SDKs verwenden die automatisch erhobenen Daten zur Anzeige relevanter Werbung.</li><li><strong>Wohltätige Spenden:</strong> 80 % der erzielten Werbeeinnahmen werden an Ärzte ohne Grenzen gespendet.</li><li><strong>App-Funktionalität:</strong> Die Liste der installierten Apps wird lokal verwendet, um Ihre Apps auf dem Startbildschirm anzuzeigen.</li><li><strong>Automatisierte Entscheidungsfindung:</strong> Das Google AdMob SDK setzt automatisierte Verfahren ein, um auf Grundlage der in Abschnitt 3.1 genannten Daten relevante Werbeanzeigen auszuwählen. Eine darüber hinausgehende automatisierte Entscheidungsfindung mit rechtlicher Wirkung im Sinne des Art. 22 DSGVO findet nicht statt.</li></ul>",
+      "en": "<ul><li><strong>Advertisements:</strong> The advertising SDKs use the automatically collected data to display relevant ads.</li><li><strong>Charitable donations:</strong> 80% of the advertising revenue generated is donated to Doctors Without Borders (Médecins Sans Frontières).</li><li><strong>App functionality:</strong> The list of installed apps is used locally to display your apps on the home screen.</li><li><strong>Automated decision-making:</strong> The Google AdMob SDK uses automated processes to select relevant advertisements based on the data described in Section 3.1. No further automated decision-making with legal effects within the meaning of Art. 22 GDPR takes place.</li></ul>"
+    },
+    "thirdPartyServices": {
+      "de": "<p>Die App integriert folgende Drittanbieterdienste:</p><ul><li><strong>Google AdMob</strong> (Werbung) – <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Datenschutzerklärung</a></li><li><strong>Google User Messaging Platform (UMP)</strong> (Einwilligungsverwaltung) – eine von Google bereitgestellte, nach dem <a href=\"https://iabeurope.eu/transparency-consent-framework/\" target=\"_blank\" rel=\"noopener\">IAB Transparency &amp; Consent Framework (TCF v2.3)</a> zertifizierte Consent Management Platform (CMP). Die UMP schreibt IAB-TCF-konforme Einwilligungszeichenfolgen (TC-Strings) lokal in die SharedPreferences, die Google AdMob automatisch ausliest, um den Umfang der Datenverarbeitung zu steuern. – <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Datenschutzerklärung</a></li></ul><p>Wir empfehlen Ihnen, diese Datenschutzrichtlinien zu lesen, um zu verstehen, wie diese Dienste mit Ihren Daten umgehen.</p>",
+      "en": "<p>The app integrates the following third-party services:</p><ul><li><strong>Google AdMob</strong> (advertising) – <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a></li><li><strong>Google User Messaging Platform (UMP)</strong> (consent management) – a Consent Management Platform (CMP) provided by Google, certified under the <a href=\"https://iabeurope.eu/transparency-consent-framework/\" target=\"_blank\" rel=\"noopener\">IAB Transparency &amp; Consent Framework (TCF v2.3)</a>. The UMP writes IAB TCF-compliant consent strings (TC strings) locally to SharedPreferences, which Google AdMob automatically reads to control the scope of data processing. – <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a></li></ul><p>We recommend reviewing these privacy policies to understand how these services handle your data.</p>"
+    },
+    "internationalTransfer": {
+      "de": "<p>Das in der App integrierte Werbe-SDK (Google AdMob) kann personenbezogene Daten in Länder außerhalb des Europäischen Wirtschaftsraums übermitteln, insbesondere in die USA. Diese Übermittlungen erfolgen auf Grundlage von EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO) oder auf Grundlage des EU-US Data Privacy Framework. Weitere Informationen entnehmen Sie bitte der Datenschutzrichtlinie von Google in Abschnitt 5.</p>",
+      "en": "<p>The advertising SDK integrated in the app (Google AdMob) may transfer personal data to countries outside the European Economic Area, in particular to the United States. These transfers are based on EU Standard Contractual Clauses (Art. 46(2)(c) GDPR) or on the EU-US Data Privacy Framework. For further information, please refer to Google's Privacy Policy referenced in Section 5.</p>"
+    },
+    "consentSection": {
+      "de": "<p>Wenn Sie sich im Europäischen Wirtschaftsraum (EWR), im Vereinigten Königreich oder in der Schweiz befinden, verwendet die App einen Einwilligungsdialog (Google UMP, zertifiziert nach dem IAB Transparency &amp; Consent Framework v2.3), um Ihre Zustimmung einzuholen, bevor personenbezogene Daten für Werbezwecke verarbeitet werden. Im Einwilligungsdialog haben Sie folgende Möglichkeiten:</p><ul><li><strong>Vollständige Einwilligung erteilen</strong> – Es werden personalisierte Werbeanzeigen angezeigt (Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO).</li><li><strong>Teilweise Einwilligung erteilen</strong> – Wenn Sie über „Optionen verwalten“ die grundlegende Einwilligung (insbesondere Zweck 1: Informationen auf einem Gerät speichern und/oder abrufen) erteilen, die Personalisierung jedoch ablehnen, werden nicht-personalisierte Werbeanzeigen angezeigt (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO).</li><li><strong>Einwilligung vollständig verweigern</strong> – Es werden keine Werbeanzeigen geladen. Die Launcher-Funktionen bleiben nutzbar, es werden jedoch keine Werbeeinnahmen für wohltätige Spenden generiert.</li><li><strong>Ihre Einwilligung jederzeit widerrufen oder anpassen</strong> über eine der folgenden Möglichkeiten:<ul><li><strong>In der App:</strong> Öffnen Sie Einstellungen → Datenschutz → Datenschutz-Optionen und tippen Sie auf „Ändern“. Im angezeigten Dialog können Sie Ihre Einwilligung widerrufen bzw. anpassen.</li><li><strong>Über die Android-Einstellungen:</strong> Löschen Sie die App-Daten unter Einstellungen → Apps → Launcher for Good → Speicher → Daten löschen. Beim nächsten Start der App wird der Einwilligungsdialog erneut angezeigt.</li></ul></li></ul><p>Ihre Einwilligungsentscheidung wird als IAB-TCF-konformer TC-String ausschließlich lokal auf Ihrem Gerät in den SharedPreferences gespeichert und nicht an uns übermittelt.</p>",
+      "en": "<p>If you are located in the European Economic Area (EEA), the United Kingdom, or Switzerland, the app uses a consent dialog (Google UMP, certified under the IAB Transparency &amp; Consent Framework v2.3) to obtain your consent before personal data is processed for advertising purposes. The consent dialog offers the following options:</p><ul><li><strong>Grant full consent</strong> – Personalized advertisements are displayed (legal basis: Art. 6(1)(a) GDPR).</li><li><strong>Grant partial consent</strong> – If you grant basic consent via \"Manage options\" (in particular Purpose 1: Store and/or access information on a device) but decline personalization, non-personalized advertisements are displayed (legal basis: Art. 6(1)(f) GDPR).</li><li><strong>Refuse consent entirely</strong> – No advertisements are loaded. The launcher features remain usable, but no advertising revenue is generated for charitable donations.</li><li><strong>Revoke or modify your consent at any time</strong> through one of the following methods:<ul><li><strong>In the app:</strong> Open Settings → Privacy → Privacy Options and tap \"Change\". In the dialog that appears, you can revoke or modify your consent.</li><li><strong>Via Android settings:</strong> Clear the app data under Settings → Apps → Launcher for Good → Storage → Clear data. The next time you open the app, the consent dialog will be shown again.</li></ul></li></ul><p>Your consent decision is stored as an IAB TCF-compliant TC string exclusively locally on your device in SharedPreferences and is not transmitted to us.</p>"
+    },
+    "retention": {
+      "de": "<p>Wir speichern keine personenbezogenen Daten auf unseren Servern. Die lokal auf Ihrem Gerät gespeicherten Daten (Startbildschirm-Konfiguration, Einstellungen, Einwilligungsentscheidung) verbleiben dort, bis Sie die App deinstallieren oder die App-Daten manuell löschen.</p><p>Daten, die vom Google AdMob SDK erhoben werden, werden gemäß der <a href=\"https://policies.google.com/technologies/retention\" target=\"_blank\" rel=\"noopener\">Aufbewahrungsrichtlinie von Google</a> gespeichert (siehe auch Abschnitt 5).</p>",
+      "en": "<p>We do not store any personal data on our servers. The data stored locally on your device (home screen configuration, settings, consent decision) remains there until you uninstall the app or manually clear the app data.</p><p>Data collected by the Google AdMob SDK is stored in accordance with <a href=\"https://policies.google.com/technologies/retention\" target=\"_blank\" rel=\"noopener\">Google's data retention policy</a> (see also Section 5).</p>"
+    },
+    "dataSecurity": {
+      "de": "<p>Wir ergreifen angemessene Maßnahmen zum Schutz der von der App verarbeiteten Informationen. Die gesamte Kommunikation mit den Werbenetzwerken erfolgt über TLS-verschlüsselte Verbindungen (HTTPS). Allerdings ist keine Methode der elektronischen Übertragung zu 100 % sicher, und wir können keine absolute Sicherheit garantieren.</p>",
+      "en": "<p>We take reasonable measures to protect the information processed by the app. All communication with the advertising networks is conducted over TLS-encrypted connections (HTTPS). However, no method of electronic transmission is 100% secure, and we cannot guarantee absolute security.</p>"
+    },
+    "rights": {
+      "de": "<p>Nach der DSGVO haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:</p><ul><li><strong>Auskunftsrecht</strong> (Art. 15 DSGVO) – Sie können Auskunft über die zu Ihrer Person gespeicherten Daten verlangen.</li><li><strong>Recht auf Berichtigung</strong> (Art. 16 DSGVO) – Sie können die Berichtigung unrichtiger Daten verlangen.</li><li><strong>Recht auf Löschung</strong> (Art. 17 DSGVO) – Sie können die Löschung Ihrer personenbezogenen Daten verlangen.</li><li><strong>Recht auf Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO) – Sie können die Einschränkung der Verarbeitung Ihrer Daten verlangen.</li><li><strong>Recht auf Datenübertragbarkeit</strong> (Art. 20 DSGVO) – Sie haben das Recht, Ihre Daten in einem gängigen, maschinenlesbaren Format zu erhalten.</li><li><strong>Widerrufsrecht</strong> (Art. 7 Abs. 3 DSGVO) – Sie können Ihre Einwilligung jederzeit widerrufen, entweder direkt in der App unter Einstellungen → Datenschutz → Datenschutz-Optionen oder durch Löschen der App-Daten (siehe Abschnitt 7).</li><li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO) – Soweit die Verarbeitung auf einem berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO) beruht, haben Sie das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit Widerspruch gegen die Verarbeitung einzulegen. Wir verarbeiten die personenbezogenen Daten dann nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe nachweisen.</li><li><strong>Beschwerderecht</strong> (Art. 77 DSGVO) – Sie haben das Recht, eine Beschwerde bei einer Datenschutzaufsichtsbehörde einzureichen.</li></ul><p>Um diese Rechte in Bezug auf die Daten der Werbe-SDKs auszuüben, verweisen wir auf die Datenschutzrichtlinien der jeweiligen Werbenetzwerke in Abschnitt 5. Für alle anderen Anfragen kontaktieren Sie uns bitte unter der in Abschnitt 1 genannten E-Mail-Adresse.</p>",
+      "en": "<p>Under the GDPR, you have the following rights with respect to your personal data:</p><ul><li><strong>Right of access</strong> (Art. 15 GDPR) – You may request information about the personal data stored about you.</li><li><strong>Right to rectification</strong> (Art. 16 GDPR) – You may request the correction of inaccurate data.</li><li><strong>Right to erasure</strong> (Art. 17 GDPR) – You may request the deletion of your personal data.</li><li><strong>Right to restriction of processing</strong> (Art. 18 GDPR) – You may request the restriction of the processing of your data.</li><li><strong>Right to data portability</strong> (Art. 20 GDPR) – You have the right to receive your data in a commonly used, machine-readable format.</li><li><strong>Right to withdraw consent</strong> (Art. 7(3) GDPR) – You may withdraw your consent at any time, either directly in the app under Settings → Privacy → Privacy Options or by clearing the app data (see Section 7).</li><li><strong>Right to object</strong> (Art. 21 GDPR) – Where processing is based on a legitimate interest (Art. 6(1)(f) GDPR), you have the right to object to the processing at any time on grounds relating to your particular situation. We will then no longer process your personal data unless we can demonstrate compelling legitimate grounds.</li><li><strong>Right to lodge a complaint</strong> (Art. 77 GDPR) – You have the right to lodge a complaint with a data protection supervisory authority.</li></ul><p>To exercise these rights with respect to data collected by the advertising SDKs, please refer to the privacy policies of the respective advertising networks in Section 5. For all other inquiries, please contact us at the email address provided in Section 1.</p>"
+    },
+    "permissions": [
+      {
+        "id": "QUERY_ALL_PACKAGES",
+        "name": {
+          "de": "QUERY_ALL_PACKAGES",
+          "en": "QUERY_ALL_PACKAGES"
+        },
+        "description": {
+          "de": "Abfrage der installierten Apps, um diese in der Launcher-Oberfläche anzuzeigen. Diese Daten verlassen niemals Ihr Gerät.",
+          "en": "Querying installed apps in order to display them in the launcher interface. This data never leaves your device."
+        }
+      },
+      {
+        "id": "BIND_APPWIDGET",
+        "name": {
+          "de": "BIND_APPWIDGET",
+          "en": "BIND_APPWIDGET"
+        },
+        "description": {
+          "de": "Einbinden von App-Widgets auf dem Startbildschirm.",
+          "en": "Embedding app widgets on the home screen."
+        }
+      },
+      {
+        "id": "REQUEST_DELETE_PACKAGES",
+        "name": {
+          "de": "REQUEST_DELETE_PACKAGES",
+          "en": "REQUEST_DELETE_PACKAGES"
+        },
+        "description": {
+          "de": "Auslösen des System-Deinstallationsdialogs, wenn Sie eine App über das Kontextmenü des Launchers deinstallieren möchten.",
+          "en": "Triggering the system uninstall dialog when you choose to uninstall an app via the launcher's context menu."
+        }
+      },
+      {
+        "id": "EXPAND_STATUS_BAR",
+        "name": {
+          "de": "EXPAND_STATUS_BAR",
+          "en": "EXPAND_STATUS_BAR"
+        },
+        "description": {
+          "de": "Öffnen der Benachrichtigungsleiste durch eine Wischgeste nach unten auf dem Startbildschirm (sofern in den Einstellungen aktiviert).",
+          "en": "Opening the notification shade via a downward swipe gesture on the home screen (if enabled in settings)."
+        }
+      },
+      {
+        "id": "BIND_NOTIFICATION_LISTENER_SERVICE",
+        "name": {
+          "de": "BIND_NOTIFICATION_LISTENER_SERVICE",
+          "en": "BIND_NOTIFICATION_LISTENER_SERVICE"
+        },
+        "description": {
+          "de": "Lesen der Paketnamen von Apps mit aktiven Benachrichtigungen, um Benachrichtigungspunkte auf App-Symbolen anzuzeigen. Diese Berechtigung muss vom Nutzer manuell in den Android-Systemeinstellungen unter „Benachrichtigungszugriff“ erteilt werden. Es werden ausschließlich Paketnamen verarbeitet, nicht der Inhalt der Benachrichtigungen. Die Daten verbleiben im Arbeitsspeicher und werden nicht gespeichert oder übertragen.",
+          "en": "Reading the package names of apps with active notifications in order to display notification dots on app icons. This permission must be manually granted by the user in the Android system settings under \"Notification access\". Only package names are processed, not the content of notifications. The data remains in memory and is neither stored nor transmitted."
+        }
+      },
+      {
+        "id": "INTERNET",
+        "name": {
+          "de": "INTERNET und ACCESS_NETWORK_STATE",
+          "en": "INTERNET and ACCESS_NETWORK_STATE"
+        },
+        "description": {
+          "de": "Erforderlich für das Laden von Werbeanzeigen und die Einwilligungsprüfung über das Google AdMob SDK bzw. Google UMP SDK. Die App selbst führt keine eigenen Netzwerkverbindungen durch.",
+          "en": "Required for loading advertisements and verifying consent via the Google AdMob SDK and Google UMP SDK. The app itself does not make any network connections of its own."
+        }
+      }
+    ],
+    "androidBackup": {
+      "de": "<p>Android kann App-Daten automatisch in Ihrem Google-Konto sichern, wenn Sie dies in Ihren Geräteeinstellungen aktiviert haben. Dies ist eine Funktion des Android-Betriebssystems und wird von Google verwaltet. Die Sicherung kann auch SharedPreferences umfassen, in denen unter anderem Ihre Einwilligungsentscheidung (IAB-TCF-TC-String) gespeichert ist. Wird eine solche Sicherung auf einem neuen Gerät wiederhergestellt, kann es vorkommen, dass der Einwilligungsdialog nicht erneut angezeigt wird, da das System den zuvor gespeicherten Einwilligungsstatus übernimmt. In diesem Fall können Sie Ihre Einwilligung jederzeit über Einstellungen → Datenschutz → Datenschutz-Optionen anpassen oder die App-Daten manuell löschen (siehe Abschnitt 7). Sie können die automatische Sicherung in den Android-Einstellungen unter „Sicherung“ deaktivieren.</p>",
+      "en": "<p>Android may automatically back up app data to your Google account if you have enabled this in your device settings. This is a feature of the Android operating system and is managed by Google. The backup may include SharedPreferences, which contain, among other things, your consent decision (IAB TCF TC string). If such a backup is restored on a new device, the consent dialog may not be shown again because the system restores the previously saved consent state. In this case, you can modify your consent at any time via Settings → Privacy → Privacy Options, or manually clear the app data (see Section 7). You can disable automatic backup in your Android settings under \"Backup\".</p>"
+    }
+  }
+]

@@ -1,7 +1,7 @@
 # JJ's Stuff
 
 Website für **JJ's Stuff** – Indie-Software-Entwicklung.  
-Statisches HTML/CSS/TypeScript, gehostet auf [GitHub Pages](https://jjsstuff.github.io).
+Statische Seite mit Eleventy (11ty), gehostet auf [GitHub Pages](https://jjsstuff.github.io).
 
 ## Setup
 
@@ -12,36 +12,33 @@ npm run build
 
 ## Architektur
 
-- **Kein Framework** – bewusst statisch (HTML/CSS/TypeScript)
-- **i18n** – Texte in `locales/de.json` und `locales/en.json`, HTML nutzt `data-i18n`-Attribute
-- **Englische Version** – wird automatisch aus `index.html` generiert:
-  - `scripts/generate-en.ts` liest `index.html`, setzt `lang="en"`, passt Pfade an (z.B. `css/` → `../css/`) und schreibt das Ergebnis nach `en/index.html`
-  - Aufruf: `npm run generate-en` (läuft auch bei `npm run build` mit)
-- **TypeScript** – Quelle in `src/main.ts`, kompiliert nach `dist/main.js`
-- **`dist/` wird committed** – kein CI nötig, GitHub Pages served direkt
+- **Eleventy (11ty)** – Statischer Site-Generator, baut alle Seiten aus Nunjucks-Templates
+- **i18n** – Build-Time-Übersetzung via `locales/{de,en}.json` und `_data/i18n.js`. Templates greifen auf `i18n[lang].section.key` zu.
+- **Client JS** – `dist/main.js` (committed, kein Build-Schritt). Zuständig für Navigation, Scroll-Animationen, Parallax.
+- **App-Daten** – Zentral in `_data/apps.json`. Datenschutzseiten (DE+EN) werden per Eleventy-Pagination generiert.
+- **CI/CD** – GitHub Actions baut die Seite und deployed `_site/` auf GitHub Pages.
 
 ## Projektstruktur
 
 | Pfad | Beschreibung |
 |------|-------------|
-| `index.html` | Hauptseite (Deutsch) |
-| `en/index.html` | Englische Version (auto-generiert) |
-| `datenschutz.html` | Datenschutzerklärung der Website |
-| `impressum.html` | Impressum |
-| `apps/bleigiessen/` | Datenschutzerklärung der Bleigießen App |
-| `apps/launcher-for-good/` | Datenschutzerklärung der Launcher for Good App |
+| `pages/` | Eleventy-Seitenvorlagen (Nunjucks) |
+| `_includes/` | Layouts (`base.njk`, `home.njk`) und Partials |
+| `_includes/partials/privacy/` | Gemeinsame Datenschutz-Abschnitte |
+| `_data/` | Globale Daten (`site.json`, `apps.json`, `i18n.js`) |
+| `_site/` | Build-Output (gitignored) |
 | `locales/` | Übersetzungsdateien (DE/EN) |
-| `src/` | TypeScript-Quellcode |
 | `css/` | Stylesheets |
+| `dist/` | Client-seitiges JavaScript |
 | `assets/` | Fonts und App-Icons |
+| `.github/workflows/` | GitHub Actions Deployment |
 
 ## Scripts
 
 | Befehl | Beschreibung |
 |--------|-------------|
-| `npm run build` | TypeScript kompilieren + EN-Seite generieren |
-| `npm run watch` | TypeScript im Watch-Modus |
-| `npm run generate-en` | Nur EN-Seite neu generieren |
+| `npm run build` | Eleventy-Build → `_site/` |
+| `npm run serve` | Eleventy Dev-Server mit Live-Reload |
 
 ## Konventionen
 
@@ -49,6 +46,8 @@ npm run build
   ```bash
   magick assets/icons/ICON.png -resize 512x512 -strip assets/icons/ICON.png
   ```
+- **Neue App hinzufügen:** Eintrag in `_data/apps.json` ergänzen + App-Card in `_includes/home.njk` + Locale-Keys in `locales/*.json`
+- **Datenschutztexte:** Zentral in `_data/apps.json` (pro App, bilingual). Gemeinsame Abschnitte in `_includes/partials/privacy/`
 
 ## Lizenz
 

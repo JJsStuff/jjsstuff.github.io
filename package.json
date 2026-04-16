@@ -4,12 +4,10 @@
     "private": true,
     "description": "JJ's Stuff – Professional website",
     "scripts": {
-        "build": "tsc && npm run generate-en",
-        "watch": "tsc --watch",
-        "generate-en": "npx tsx scripts/generate-en.ts"
+        "build": "npx @11ty/eleventy",
+        "serve": "npx @11ty/eleventy --serve"
     },
     "devDependencies": {
-        "tsx": "^4.0.0",
-        "typescript": "^5.7.0"
+        "@11ty/eleventy": "^3.1.5"
     }
 }

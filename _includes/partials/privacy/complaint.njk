@@ -1,0 +1,3 @@
+{%- set l = lang -%}
+{%- set sa = site.supervisoryAuthority -%}
+<p>{{ "Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Die für Bayern zuständige Aufsichtsbehörde ist das" if l == "de" else "You have the right to lodge a complaint with a data protection supervisory authority. The supervisory authority responsible for Bavaria is the" }} {{ sa.name }}, {{ sa.address }}{% if l == "en" %}, Germany{% endif %}.</p>

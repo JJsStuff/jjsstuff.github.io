@@ -1,0 +1,28 @@
+---
+layout: base.njk
+noindex: true
+pagination:
+  data: apps
+  size: 1
+  alias: app
+permalink: "apps/{{ app.slug }}/datenschutz.html"
+eleventyComputed:
+  title: "Datenschutz – {{ app.name.de }}"
+  lang: "de"
+  homeUrl: "/"
+  rootPath: "../../"
+  heading: "Datenschutzerklärung – {{ app.name.de }}"
+  footerLinks: '<a href="/">← Zurück zur Startseite</a><span class="footer__sep">·</span><a href="../../impressum.html">Impressum</a><span class="footer__sep">·</span><a href="../../datenschutz.html">Allg. Datenschutz</a><span class="footer__sep">·</span><a href="https://play.google.com/store/apps/details?id={{ app.playStoreId }}" target="_blank" rel="noopener">{{ app.name.de | replace(" App", "") }} (Play Store)</a>'
+---
+<main class="section legal">
+    <div class="section__container">
+        <h1 class="section__title">{{ heading }}</h1>
+        <div class="legal__content">
+            {%- if app.type == "connected" -%}
+            {% include "app-privacy-connected.njk" %}
+            {%- else -%}
+            {% include "app-privacy-offline.njk" %}
+            {%- endif -%}
+        </div>
+    </div>
+</main>

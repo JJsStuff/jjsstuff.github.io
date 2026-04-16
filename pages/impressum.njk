@@ -1,0 +1,44 @@
+---
+layout: base.njk
+permalink: "impressum.html"
+title: Impressum
+lang: de
+noindex: true
+homeUrl: "/"
+rootPath: ""
+footerLinks: '<a href="/">← Zurück zur Startseite</a>'
+---
+<main class="section legal">
+    <div class="section__container">
+        <h1 class="section__title">Impressum</h1>
+
+        <div class="legal__content">
+            <h2>Angaben gemäß § 5 TMG</h2>
+            <p>
+                <strong>{{ site.owner }}</strong><br>
+                {{ site.company }}<br>
+                {{ site.address.street }}<br>
+                {{ site.address.zip }} {{ site.address.city }}
+            </p>
+
+            <h2>Kontakt</h2>
+            <p>
+                E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+
+            <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+            <p>
+                <strong>{{ site.owner }}</strong><br>
+                {{ site.address.street }}<br>
+                {{ site.address.zip }} {{ site.address.city }}
+            </p>
+
+            <h2>Haftungsausschluss</h2>
+            <h3>Haftung für Inhalte</h3>
+            <p>Die Inhalte dieser Seite wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.</p>
+
+            <h3>Haftung für Links</h3>
+            <p>Diese Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte kein Einfluss besteht. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich.</p>
+        </div>
+    </div>
+</main>

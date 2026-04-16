@@ -1,76 +1,3 @@
-function getLocaleBase() {
-    const isSubdir = window.location.pathname.includes('/en/');
-    return isSubdir ? '../locales/' : 'locales/';
-}
-async function loadTranslations() {
-    const lang = document.documentElement.lang || 'de';
-    const base = getLocaleBase();
-    try {
-        const response = await fetch(`${base}${lang}.json`);
-        if (!response.ok)
-            return;
-        const translations = await response.json();
-        applyTranslations(translations);
-    }
-    catch (e) {
-        console.warn(`[i18n] Could not load locale: ${lang}`, e);
-    }
-}
-function resolveKey(obj, key) {
-    const parts = key.split('.');
-    let current = obj;
-    for (const part of parts) {
-        if (current && typeof current === 'object' && part in current) {
-            current = current[part];
-        }
-        else {
-            return undefined;
-        }
-    }
-    return typeof current === 'string' ? current : undefined;
-}
-function applyTranslations(translations) {
-    document.querySelectorAll('[data-i18n]').forEach((el) => {
-        const key = el.getAttribute('data-i18n');
-        if (!key)
-            return;
-        const value = resolveKey(translations, key);
-        if (value)
-            el.textContent = value;
-    });
-    document.querySelectorAll('[data-i18n-html]').forEach((el) => {
-        const key = el.getAttribute('data-i18n-html');
-        if (!key)
-            return;
-        const value = resolveKey(translations, key);
-        if (value)
-            el.innerHTML = value;
-    });
-    document.querySelectorAll('[data-i18n-href]').forEach((el) => {
-        const key = el.getAttribute('data-i18n-href');
-        if (!key)
-            return;
-        const value = resolveKey(translations, key);
-        if (value)
-            el.setAttribute('href', value);
-    });
-    document.querySelectorAll('[data-i18n-title]').forEach((el) => {
-        const key = el.getAttribute('data-i18n-title');
-        if (!key)
-            return;
-        const value = resolveKey(translations, key);
-        if (value)
-            el.setAttribute('title', value);
-    });
-    document.querySelectorAll('[data-i18n-aria]').forEach((el) => {
-        const key = el.getAttribute('data-i18n-aria');
-        if (!key)
-            return;
-        const value = resolveKey(translations, key);
-        if (value)
-            el.setAttribute('aria-label', value);
-    });
-}
 function initFadeAnimations() {
     const fadeElements = document.querySelectorAll('.fade-in');
     if (!fadeElements.length)
@@ -104,8 +31,7 @@ function initMobileNav() {
         });
     });
     document.addEventListener('click', (e) => {
-        const target = e.target;
-        if (!menu.contains(target) && !toggle.contains(target)) {
+        if (!menu.contains(e.target) && !toggle.contains(e.target)) {
             menu.classList.remove('open');
             toggle.setAttribute('aria-expanded', 'false');
         }
@@ -131,13 +57,6 @@ function initActiveNavState() {
     });
     sections.forEach((section) => observer.observe(section));
 }
-function updateCopyrightYear() {
-    const el = document.querySelector('[data-i18n="footer.copy"]');
-    if (!el || !el.textContent)
-        return;
-    const year = new Date().getFullYear();
-    el.textContent = el.textContent.replace(/© \d{4}/, `© ${year}`);
-}
 function initMeshParallax() {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches)
         return;
@@ -149,20 +68,16 @@ function initMeshParallax() {
     window.addEventListener('scroll', () => {
         if (!ticking) {
             requestAnimationFrame(() => {
-                const scrollY = window.scrollY;
-                mesh.style.transform = `translateY(${scrollY * PARALLAX_FACTOR}px)`;
+                mesh.style.transform = `translateY(${window.scrollY * PARALLAX_FACTOR}px)`;
                 ticking = false;
             });
             ticking = true;
         }
     }, { passive: true });
 }
-document.addEventListener('DOMContentLoaded', async () => {
-    await loadTranslations();
+document.addEventListener('DOMContentLoaded', () => {
     initFadeAnimations();
     initMobileNav();
     initActiveNavState();
     initMeshParallax();
-    updateCopyrightYear();
 });
-export {};
