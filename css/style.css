@@ -691,6 +691,12 @@ a:hover {
 }
 
 .legal__content ul,
+.legal__content ol {
+    padding-left: var(--s-xl);
+}
+
+.legal__content ul,
+.legal__content ol,
 .legal__content li {
     color: var(--c-text-soft);
     font-size: 0.95rem;
