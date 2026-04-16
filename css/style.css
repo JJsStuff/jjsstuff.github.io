@@ -45,6 +45,8 @@
     --c-border-hover:rgba(255, 255, 255, 0.15);
     --c-text:        #fafafa;
     --c-text-muted:  rgba(255, 255, 255, 0.5);
+    --c-text-secondary: rgba(255, 255, 255, 0.7);
+    --c-text-soft:   rgba(255, 255, 255, 0.8);
     --c-text-dim:    rgba(255, 255, 255, 0.25);
     --c-accent:      #06b6d4;
     --c-accent-2:    #8b5cf6;
@@ -390,13 +392,13 @@ a:hover {
 
 .btn--ghost {
     background: rgba(255, 255, 255, 0.06);
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--c-text-secondary);
     border: 1px solid var(--c-border);
 }
 
 .btn--ghost:hover {
     background: rgba(255, 255, 255, 0.1);
-    color: #fff;
+    color: var(--c-text);
     border-color: var(--c-border-hover);
 }
 
@@ -429,10 +431,6 @@ a:hover {
 }
 
 /* --- Apps --- */
-.apps {
-    background: transparent;
-}
-
 .apps__grid {
     display: grid;
     gap: var(--s-lg);
@@ -474,10 +472,6 @@ a:hover {
     background: var(--c-surface-alt);
     border-radius: var(--radius);
     border: 1px solid var(--c-border);
-}
-
-.app-card__emoji {
-    font-size: 1.8rem;
 }
 
 .app-card__icon-img {
@@ -587,10 +581,6 @@ a:hover {
 }
 
 /* --- Contact --- */
-.contact {
-    background: transparent;
-}
-
 .contact__content {
     text-align: center;
     padding: var(--s-2xl) 0;
@@ -688,13 +678,13 @@ a:hover {
     font-family: var(--f-sans);
     font-size: 0.95rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--c-text-secondary);
     margin-top: var(--s-lg);
     margin-bottom: var(--s-sm);
 }
 
 .legal__content p {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--c-text-soft);
     font-size: 0.95rem;
     margin-bottom: var(--s-md);
     line-height: 1.8;
@@ -702,7 +692,7 @@ a:hover {
 
 .legal__content ul,
 .legal__content li {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--c-text-soft);
     font-size: 0.95rem;
     line-height: 1.8;
 }
