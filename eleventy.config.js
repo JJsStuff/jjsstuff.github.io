@@ -2,7 +2,6 @@ module.exports = function (eleventyConfig) {
   // Passthrough copy – static assets served as-is
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("assets");
-  eleventyConfig.addPassthroughCopy("dist");
   eleventyConfig.addPassthroughCopy("app-ads.txt");
   eleventyConfig.addPassthroughCopy("favicon.svg");
 
