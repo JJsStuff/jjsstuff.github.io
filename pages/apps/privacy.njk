@@ -12,6 +12,9 @@ eleventyComputed:
   homeUrl: "/en/"
   rootPath: "../../../"
   heading: "Privacy Policy – {{ app.name.en }}"
+  langSwitchHref: "/apps/{{ app.slug }}/datenschutz.html"
+  langSwitchTitle: "Deutsch"
+  langSwitchLabel: "DE"
   footerLinks: '<a href="/en/">← Back to Homepage</a><span class="footer__sep">·</span><a href="../../../impressum.html">Legal Notice (German)</a><span class="footer__sep">·</span><a href="../../privacy.html">General Privacy Policy</a><span class="footer__sep">·</span><a href="https://play.google.com/store/apps/details?id={{ app.playStoreId }}" target="_blank" rel="noopener">{{ app.name.en | replace(" App", "") }} (Play Store)</a>'
 ---
 <main class="section legal">

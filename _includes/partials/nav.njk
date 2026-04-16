@@ -1,7 +1,19 @@
+{%- set t = i18n[lang] -%}
 <nav class="nav" id="nav">
     <div class="nav__container">
-        <a href="{{ homeUrl }}" class="nav__logo">
+        <a href="{{ '#hero' if not homeUrl else homeUrl }}" class="nav__logo">
             <span class="nav__logo-bracket">{</span>JJ<span class="nav__logo-bracket">}</span>
         </a>
+        <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-label="{{ t.nav.menuLabel }}">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__menu" id="nav-menu">
+            <li><a href="{{ (homeUrl or '') + '#apps' }}" class="nav__link">{{ t.nav.apps }}</a></li>
+            <li><a href="{{ (homeUrl or '') + '#about' }}" class="nav__link">{{ t.nav.about }}</a></li>
+            <li><a href="{{ (homeUrl or '') + '#contact' }}" class="nav__link">{{ t.nav.contact }}</a></li>
+            {%- if langSwitchHref %}
+            <li><a href="{{ langSwitchHref }}" title="{{ langSwitchTitle }}" class="nav__link nav__lang">{{ langSwitchLabel }}</a></li>
+            {%- endif %}
+        </ul>
     </div>
 </nav>
