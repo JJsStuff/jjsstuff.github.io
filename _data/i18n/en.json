@@ -11,7 +11,7 @@
     "hero": {
         "pre": "Indie Software Development",
         "title": "JJ's<br><span class=\"hero__title-accent\">Stuff.</span>",
-        "subtitle": "Whatever my brain spits out – now as an app.",
+        "subtitle": "Whatever my brain spits out, now as an app.",
         "cta": "View projects →",
         "ctaSecondary": "Contact"
     },
@@ -25,7 +25,7 @@
         "bleigiessenPrivacy": "Privacy Policy",
         "bleigiessenPrivacyHref": "en/apps/bleigiessen/privacy.html",
         "launcherTitle": "Launcher for Good",
-        "launcherDesc": "Your launcher that does good – 80% of ad revenue is donated to <a href=\"https://www.aerzte-ohne-grenzen.de/\" target=\"_blank\" rel=\"noopener noreferrer\">Doctors Without Borders</a>.",
+        "launcherDesc": "Your launcher that does good, 80% of ad revenue is donated to <a href=\"https://www.aerzte-ohne-grenzen.de/\" target=\"_blank\" rel=\"noopener noreferrer\">Doctors Without Borders</a>.",
         "launcherTag1": "Android",
         "launcherTag2": "Launcher",
         "launcherTag3": "Charity",
@@ -59,7 +59,7 @@
     },
     "about": {
         "title": "About",
-        "text1": "Hi, I'm the person behind <strong>JJ's Stuff</strong>. As an indie developer, I build apps and software that I actually use myself – clean, functional, and crafted with care.",
+        "text1": "Hi, I'm the person behind <strong>JJ's Stuff</strong>. As an indie developer, I build apps and software that I actually use myself, clean, functional, and crafted with care.",
         "stackTitle": "// Tech Stack"
     },
     "contact": {

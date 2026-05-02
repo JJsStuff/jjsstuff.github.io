@@ -11,7 +11,7 @@
     "hero": {
         "pre": "Indie Software Development",
         "title": "JJ's<br><span class=\"hero__title-accent\">Stuff.</span>",
-        "subtitle": "Was mein Hirn so ausspuckt \u2013 jetzt als App.",
+        "subtitle": "Was mein Hirn so ausspuckt, jetzt als App.",
         "cta": "Projekte ansehen →",
         "ctaSecondary": "Kontakt"
     },
@@ -25,7 +25,7 @@
         "bleigiessenPrivacy": "Datenschutzerklärung",
         "bleigiessenPrivacyHref": "apps/bleigiessen/datenschutz.html",
         "launcherTitle": "Launcher for Good",
-        "launcherDesc": "Dein Launcher, der Gutes tut – 80 % der Werbeeinnahmen gehen an <a href=\"https://www.aerzte-ohne-grenzen.de/\" target=\"_blank\" rel=\"noopener noreferrer\">Ärzte ohne Grenzen</a>.",
+        "launcherDesc": "Dein Launcher, der Gutes tut, 80 % der Werbeeinnahmen gehen an <a href=\"https://www.aerzte-ohne-grenzen.de/\" target=\"_blank\" rel=\"noopener noreferrer\">Ärzte ohne Grenzen</a>.",
         "launcherTag1": "Android",
         "launcherTag2": "Launcher",
         "launcherTag3": "Wohltätigkeit",
@@ -59,7 +59,7 @@
     },
     "about": {
         "title": "Über mich",
-        "text1": "Hi, ich bin der Kopf hinter <strong>JJ's Stuff</strong>. Als unabhängiger Entwickler baue ich Apps und Software, die ich selbst gerne nutze – schlicht, funktional und mit Liebe zum Detail.",
+        "text1": "Hi, ich bin der Kopf hinter <strong>JJ's Stuff</strong>. Als unabhängiger Entwickler baue ich Apps und Software, die ich selbst gerne nutze, schlicht, funktional und mit Liebe zum Detail.",
         "stackTitle": "// Tech Stack"
     },
     "contact": {
